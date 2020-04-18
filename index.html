@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cutlist v4.1</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="section group main-screen" id="to-hide">
+
+            <div class="col span_2_of_2 header">
+                    <div>
+                        CSGO Match Stats
+                    </div>
+            </div>
+
+            <div class="col span_2_of_2">
+                <div id="master-upload">
+                    <label class="button up-btn" for="master">Upload Server Log</label><br>
+                    <input class="input" type="file" id="master" single /><br>
+                    <div id="master-text">
+                        Drag Server Log Here
+                    </div>
+                </div>
+            </div>
+
+            <div class="col span_2_of_2">
+
+                <div class="run-button">
+                    <label class="button run-btn" for="gobtn">Analyze Match</label><br>
+                    <button type="submit" id="gobtn"></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="bg"></div>
+
+        <div class="section group dnld" id="download-btns">
+
+            <div class="col span_1_of_2 col3">
+                <div class="report-name">Match Stats</div>
+            </div>
+
+            <div class="section group dnld" id="players">
+
+            </div>
+            <div class="tables span_1_of_2" id="tables">
+
+            </div>
+        </div>
+    </body>
+
+    <script src="jquery-3.4.1.js"></script>
+    <script src="ui-controller.js"></script>
+    <script src="table-functions.js"></script>
+    <script src="classes.js"></script>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,25 @@
+"kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+"meerkat<5><STEAM_1:1:25277236><CT>" [-423 -1688 -168] killed "kalo<6><TERRORIST>" [-224 -1562 -6] with "usp_silencer" (headshot)
+"Psyonic<8><STEAM_1:1:30687182><CT>" [20 -2044 -36] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-175 -1693 -104] with "usp_silencer" (headshot)
+Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "1") (T "0")
+Team "CT" scored "1" with "2" players
+Team "TERRORIST" scored "0" with "2" players
+World triggered "Round_End"
+Starting Freeze period
+"kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+"Psyonic<8><STEAM_1:1:30687182><CT>" purchased "m4a1_silencer"
+"meerkat<5><STEAM_1:1:25277236><CT>" purchased "m4a1"
+"Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+"Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+"EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "bizon"
+"EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+"kalo<6><TERRORIST>" purchased "item_assaultsuit"
+"kalo<6><TERRORIST>" purchased "mac10"
+"meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_kevlar"
+World triggered "Round_Start"
+"Psyonic<8><STEAM_1:1:30687182><CT>" [-1576 -1099 -230] killed other "func_breakable<135>" [-1330 -973 -131] with "usp_silencer"
+"Psyonic<8><STEAM_1:1:30687182><CT>" [-1576 -1099 -230] killed other "prop_dynamic<421>" [-1336 -974 -132] with "usp_silencer" (penetrated)
+"meerkat<5><STEAM_1:1:25277236><CT>" [-1906 -332 -129] killed other "prop_dynamic<451>" [-1888 -276 -72] with "knife"
+"kalo<6><TERRORIST>" [-1842 714 -48] killed "meerkat<5><STEAM_1:1:25277236><CT>" [-1376 325 -104] with "mac10" (headshot)
+"kalo<6><TERRORIST>" triggered "Planted_The_Bomb"
+"kalo<6><TERRORIST>" [-2133 516 -167] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-1977 743 16] with "mac10"

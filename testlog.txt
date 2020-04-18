@@ -1,0 +1,1000 @@
+L 04/15/2020 - 20:49:32: "kalo<6><TERRORIST>" purchased "item_kevlar"
+L 04/15/2020 - 20:49:49: World triggered "Round_Start"
+L 04/15/2020 - 20:50:32: "kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 20:50:32: "meerkat<5><STEAM_1:1:25277236><CT>" [-423 -1688 -168] killed "kalo<6><TERRORIST>" [-224 -1562 -6] with "usp_silencer" (headshot)
+L 04/15/2020 - 20:50:38: "Psyonic<8><STEAM_1:1:30687182><CT>" [20 -2044 -36] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-175 -1693 -104] with "usp_silencer" (headshot)
+L 04/15/2020 - 20:50:38: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "1") (T "0")
+L 04/15/2020 - 20:50:38: Team "CT" scored "1" with "2" players
+L 04/15/2020 - 20:50:38: Team "TERRORIST" scored "0" with "2" players
+L 04/15/2020 - 20:50:38: World triggered "Round_End"
+L 04/15/2020 - 20:50:45: Starting Freeze period
+L 04/15/2020 - 20:50:45: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:50:48: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "m4a1_silencer"
+L 04/15/2020 - 20:50:49: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "m4a1"
+L 04/15/2020 - 20:50:49: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:50:50: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+L 04/15/2020 - 20:50:50: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "bizon"
+L 04/15/2020 - 20:50:53: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:50:55: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:50:55: "kalo<6><TERRORIST>" purchased "mac10"
+L 04/15/2020 - 20:50:56: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_kevlar"
+L 04/15/2020 - 20:51:05: World triggered "Round_Start"
+L 04/15/2020 - 20:51:09: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1576 -1099 -230] killed other "func_breakable<135>" [-1330 -973 -131] with "usp_silencer"
+L 04/15/2020 - 20:51:09: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1576 -1099 -230] killed other "prop_dynamic<421>" [-1336 -974 -132] with "usp_silencer" (penetrated)
+L 04/15/2020 - 20:51:17: "meerkat<5><STEAM_1:1:25277236><CT>" [-1906 -332 -129] killed other "prop_dynamic<451>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 20:51:24: "kalo<6><TERRORIST>" [-1842 714 -48] killed "meerkat<5><STEAM_1:1:25277236><CT>" [-1376 325 -104] with "mac10" (headshot)
+L 04/15/2020 - 20:51:39: "kalo<6><TERRORIST>" triggered "Planted_The_Bomb"
+L 04/15/2020 - 20:51:51: "kalo<6><TERRORIST>" [-2133 516 -167] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-1977 743 16] with "mac10"
+L 04/15/2020 - 20:51:51: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "1") (T "1")
+L 04/15/2020 - 20:51:51: Team "CT" scored "1" with "2" players
+L 04/15/2020 - 20:51:51: Team "TERRORIST" scored "1" with "2" players
+L 04/15/2020 - 20:51:51: World triggered "Round_End"
+L 04/15/2020 - 20:51:58: Starting Freeze period
+L 04/15/2020 - 20:51:58: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:52:04: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "ump45"
+L 04/15/2020 - 20:52:05: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "fiveseven"
+L 04/15/2020 - 20:52:09: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:52:09: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:52:12: "kalo<6><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 20:52:12: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 20:52:13: "kalo<6><TERRORIST>" purchased "p250"
+L 04/15/2020 - 20:52:18: World triggered "Round_Start"
+L 04/15/2020 - 20:52:35: "kalo<6><TERRORIST>" threw flashbang [-123 -1563 138] flashbang entindex 204)
+L 04/15/2020 - 20:52:35: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 0.85 by "kalo<6><TERRORIST>" from flashbang entindex 204 
+L 04/15/2020 - 20:52:37: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 20:52:37: "meerkat<5><STEAM_1:1:25277236><CT>" [461 -1436 -176] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [423 -1599 -159] with "fiveseven" (headshot)
+L 04/15/2020 - 20:52:38: "kalo<6><TERRORIST>" threw flashbang [-59 -1579 -158] flashbang entindex 204)
+L 04/15/2020 - 20:52:38: "meerkat<5><STEAM_1:1:25277236><CT>" blinded for 1.77 by "kalo<6><TERRORIST>" from flashbang entindex 204 
+L 04/15/2020 - 20:52:38: "kalo<6><TERRORIST>" blinded for 0.29 by "kalo<6><TERRORIST>" from flashbang entindex 204 
+L 04/15/2020 - 20:52:38: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 1.80 by "kalo<6><TERRORIST>" from flashbang entindex 204 
+L 04/15/2020 - 20:52:39: "kalo<6><TERRORIST>" [449 -1597 -236] killed "meerkat<5><STEAM_1:1:25277236><CT>" [413 -1457 -112] with "mac10" (headshot)
+L 04/15/2020 - 20:52:41: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:52:42: "kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 20:52:42: "Psyonic<8><STEAM_1:1:30687182><CT>" [2 -1845 -40] killed "kalo<6><TERRORIST>" [149 -1446 -112] with "ump45" (headshot)
+L 04/15/2020 - 20:52:42: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "2") (T "1")
+L 04/15/2020 - 20:52:42: Team "CT" scored "2" with "2" players
+L 04/15/2020 - 20:52:42: Team "TERRORIST" scored "1" with "2" players
+L 04/15/2020 - 20:52:42: World triggered "Round_End"
+L 04/15/2020 - 20:52:49: Starting Freeze period
+L 04/15/2020 - 20:52:49: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:52:55: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:52:55: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:52:55: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:52:56: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+L 04/15/2020 - 20:52:58: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 20:52:58: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "mp5sd"
+L 04/15/2020 - 20:52:59: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "bizon"
+L 04/15/2020 - 20:53:00: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:53:05: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:53:05: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:53:07: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 20:53:07: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 20:53:08: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 20:53:08: "kalo<6><TERRORIST>" purchased "mac10"
+L 04/15/2020 - 20:53:09: World triggered "Round_Start"
+L 04/15/2020 - 20:53:10: "kalo<6><TERRORIST>" purchased "p250"
+L 04/15/2020 - 20:53:17: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1915 -323 -132] killed other "prop_dynamic<453>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 20:53:27: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [-1122 750 -78]
+L 04/15/2020 - 20:53:29: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [-1411 719 -44]
+L 04/15/2020 - 20:53:38: Molotov projectile spawned at -2313.072021 770.265320 -57.429802, velocity 641.068359 -24.628286 209.880539
+L 04/15/2020 - 20:53:40: "Psyonic<8><STEAM_1:1:30687182><CT>" threw molotov [-1509 739 -46]
+L 04/15/2020 - 20:53:42: "kalo<6><TERRORIST>" threw flashbang [-1839 536 582] flashbang entindex 127)
+L 04/15/2020 - 20:53:42: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.27 by "kalo<6><TERRORIST>" from flashbang entindex 127 
+L 04/15/2020 - 20:53:42: "meerkat<5><STEAM_1:1:25277236><CT>" blinded for 3.97 by "kalo<6><TERRORIST>" from flashbang entindex 127 
+L 04/15/2020 - 20:53:42: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 2.76 by "kalo<6><TERRORIST>" from flashbang entindex 127 
+L 04/15/2020 - 20:53:43: "kalo<6><TERRORIST>" threw smokegrenade [-2333 513 -166]
+L 04/15/2020 - 20:53:57: Molotov projectile spawned at -1769.287842 801.415161 18.194998, velocity -653.328491 -315.045105 91.283112
+L 04/15/2020 - 20:53:58: "kalo<6><TERRORIST>" threw molotov [-2664 364 -163]
+L 04/15/2020 - 20:54:14: "kalo<6><TERRORIST>" threw flashbang [-1663 255 -144] flashbang entindex 89)
+L 04/15/2020 - 20:54:14: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 4.47 by "kalo<6><TERRORIST>" from flashbang entindex 89 
+L 04/15/2020 - 20:54:14: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 0.95 by "kalo<6><TERRORIST>" from flashbang entindex 89 
+L 04/15/2020 - 20:54:15: "meerkat<5><STEAM_1:1:25277236><CT>" [-2114 771 -102] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-1786 746 16] with "mp5sd" (penetrated)
+L 04/15/2020 - 20:54:16: "kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 20:54:16: "meerkat<5><STEAM_1:1:25277236><CT>" [-2114 771 -84] killed "kalo<6><TERRORIST>" [-1883 760 16] with "mp5sd"
+L 04/15/2020 - 20:54:16: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "3") (T "1")
+L 04/15/2020 - 20:54:16: Team "CT" scored "3" with "2" players
+L 04/15/2020 - 20:54:16: Team "TERRORIST" scored "1" with "2" players
+L 04/15/2020 - 20:54:16: World triggered "Round_End"
+L 04/15/2020 - 20:54:23: Starting Freeze period
+L 04/15/2020 - 20:54:23: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:54:26: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 20:54:26: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 20:54:27: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_kevlar"
+L 04/15/2020 - 20:54:27: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "incgrenade"
+L 04/15/2020 - 20:54:27: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_defuser"
+L 04/15/2020 - 20:54:31: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:54:32: "kalo<6><TERRORIST>" purchased "mac10"
+L 04/15/2020 - 20:54:33: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "p90"
+L 04/15/2020 - 20:54:34: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:54:34: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:54:37: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:54:38: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 20:54:38: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 20:54:41: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 20:54:43: World triggered "Round_Start"
+L 04/15/2020 - 20:54:55: "kalo<6><TERRORIST>" threw flashbang [-269 -1770 286] flashbang entindex 290)
+L 04/15/2020 - 20:54:56: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [476 -1713 -255]
+L 04/15/2020 - 20:54:57: "kalo<6><TERRORIST>" threw smokegrenade [-948 -2419 -166]
+L 04/15/2020 - 20:54:58: "kalo<6><TERRORIST>" threw flashbang [-67 -1472 -164] flashbang entindex 87)
+L 04/15/2020 - 20:54:58: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 1.94 by "kalo<6><TERRORIST>" from flashbang entindex 87 
+L 04/15/2020 - 20:54:59: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 20:54:59: "meerkat<5><STEAM_1:1:25277236><CT>" [-496 -1514 -40] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [713 -1641 -195] with "mp5sd"
+L 04/15/2020 - 20:55:03: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [-46 -1534 -161]
+L 04/15/2020 - 20:55:04: "meerkat<5><STEAM_1:1:25277236><CT>" [-376 -1850 -171] killed "kalo<6><TERRORIST>" [246 -1560 -112] with "mp5sd"
+L 04/15/2020 - 20:55:04: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "4") (T "1")
+L 04/15/2020 - 20:55:04: Team "CT" scored "4" with "2" players
+L 04/15/2020 - 20:55:04: Team "TERRORIST" scored "1" with "2" players
+L 04/15/2020 - 20:55:04: World triggered "Round_End"
+L 04/15/2020 - 20:55:11: Starting Freeze period
+L 04/15/2020 - 20:55:11: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:55:16: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "awp"
+L 04/15/2020 - 20:55:16: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 20:55:17: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 20:55:18: "kalo<6><TERRORIST>" purchased "tec9"
+L 04/15/2020 - 20:55:20: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:55:31: World triggered "Round_Start"
+L 04/15/2020 - 20:55:32: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "flashbang"
+L 04/15/2020 - 20:55:34: "meerkat<5><STEAM_1:1:25277236><CT>" [-1637 -1333 -264] killed other "func_breakable<135>" [-1330 -973 -131] with "usp_silencer"
+L 04/15/2020 - 20:55:34: "meerkat<5><STEAM_1:1:25277236><CT>" [-1637 -1333 -264] killed other "prop_dynamic<421>" [-1336 -974 -132] with "usp_silencer" (penetrated)
+L 04/15/2020 - 20:55:37: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "tec9"
+L 04/15/2020 - 20:55:37: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1808 -602 -168] killed other "prop_dynamic<454>" [-1888 -276 -72] with "usp_silencer"
+L 04/15/2020 - 20:55:50: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [-1140 696 -78]
+L 04/15/2020 - 20:55:52: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [-1470 727 -44]
+L 04/15/2020 - 20:56:02: Molotov projectile spawned at -2308.267334 791.504700 -55.896851, velocity 707.821655 -42.176289 194.494705
+L 04/15/2020 - 20:56:04: "Psyonic<8><STEAM_1:1:30687182><CT>" threw molotov [-1486 742 -46]
+L 04/15/2020 - 20:56:13: "kalo<6><TERRORIST>" threw flashbang [-1898 527 450] flashbang entindex 84)
+L 04/15/2020 - 20:56:13: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.28 by "kalo<6><TERRORIST>" from flashbang entindex 84 
+L 04/15/2020 - 20:56:13: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 4.17 by "kalo<6><TERRORIST>" from flashbang entindex 84 
+L 04/15/2020 - 20:56:16: "Psyonic<8><STEAM_1:1:30687182><CT>" threw flashbang [-1527 827 -10] flashbang entindex 163)
+L 04/15/2020 - 20:56:16: "meerkat<5><STEAM_1:1:25277236><CT>" blinded for 0.49 by "Psyonic<8><STEAM_1:1:30687182><CT>" from flashbang entindex 163 
+L 04/15/2020 - 20:56:16: "kalo<6><TERRORIST>" blinded for 0.78 by "Psyonic<8><STEAM_1:1:30687182><CT>" from flashbang entindex 163 
+L 04/15/2020 - 20:56:21: "kalo<6><TERRORIST>" [-1651 726 -48] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-1738 454 -105] with "tec9" (headshot)
+L 04/15/2020 - 20:56:31: "kalo<6><TERRORIST>" triggered "Planted_The_Bomb"
+L 04/15/2020 - 20:56:53: "meerkat<5><STEAM_1:1:25277236><CT>" [-2155 -556 -168] killed "kalo<6><TERRORIST>" [-1954 -357 -99] with "usp_silencer"
+L 04/15/2020 - 20:57:07: "meerkat<5><STEAM_1:1:25277236><CT>" triggered "Begin_Bomb_Defuse_With_Kit"
+L 04/15/2020 - 20:57:11: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-1475 380 -168] killed "meerkat<5><STEAM_1:1:25277236><CT>" [-1976 289 -96] with "tec9"
+L 04/15/2020 - 20:57:11: "kalo<6><TERRORIST>" assisted killing "meerkat<5><STEAM_1:1:25277236><CT>"
+L 04/15/2020 - 20:57:11: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "4") (T "2")
+L 04/15/2020 - 20:57:11: Team "CT" scored "4" with "2" players
+L 04/15/2020 - 20:57:11: Team "TERRORIST" scored "2" with "2" players
+L 04/15/2020 - 20:57:11: World triggered "Round_End"
+L 04/15/2020 - 20:57:12: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-1322 407 -104] was killed by the bomb.
+L 04/15/2020 - 20:57:18: Starting Freeze period
+L 04/15/2020 - 20:57:18: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:57:21: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "awp"
+L 04/15/2020 - 20:57:22: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:57:22: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+L 04/15/2020 - 20:57:23: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 20:57:24: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "m4a1"
+L 04/15/2020 - 20:57:24: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 20:57:24: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:57:24: "kalo<6><TERRORIST>" purchased "galilar"
+L 04/15/2020 - 20:57:25: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "p90"
+L 04/15/2020 - 20:57:26: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:57:26: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:57:26: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:57:26: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:57:26: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 20:57:26: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 20:57:27: "kalo<6><TERRORIST>" purchased "p250"
+L 04/15/2020 - 20:57:27: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_defuser"
+L 04/15/2020 - 20:57:28: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:57:29: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 20:57:29: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 20:57:38: World triggered "Round_Start"
+L 04/15/2020 - 20:57:48: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [43 -2371 -38]
+L 04/15/2020 - 20:57:51: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [371 -1628 -182]
+L 04/15/2020 - 20:58:03: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-660 -1244 -168] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-496 -1525 24] with "p90"
+L 04/15/2020 - 20:58:09: "kalo<6><TERRORIST>" [-317 -1689 -168] killed "meerkat<5><STEAM_1:1:25277236><CT>" [180 -2357 24] with "galilar" (headshot)
+L 04/15/2020 - 20:58:09: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "4") (T "3")
+L 04/15/2020 - 20:58:09: Team "CT" scored "4" with "2" players
+L 04/15/2020 - 20:58:09: Team "TERRORIST" scored "3" with "2" players
+L 04/15/2020 - 20:58:09: World triggered "Round_End"
+L 04/15/2020 - 20:58:16: Starting Freeze period
+L 04/15/2020 - 20:58:16: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:58:19: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "m4a1_silencer"
+L 04/15/2020 - 20:58:21: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "flashbang"
+L 04/15/2020 - 20:58:24: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "deagle"
+L 04/15/2020 - 20:58:27: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_kevlar"
+L 04/15/2020 - 20:58:36: World triggered "Round_Start"
+L 04/15/2020 - 20:58:40: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1515 -977 -177] killed other "func_breakable<135>" [-1330 -973 -131] with "usp_silencer"
+L 04/15/2020 - 20:58:40: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1515 -977 -177] killed other "prop_dynamic<482>" [-1336 -974 -132] with "usp_silencer" (penetrated)
+L 04/15/2020 - 20:59:03: "kalo<6><TERRORIST>" threw flashbang [-1232 683 -75] flashbang entindex 176)
+L 04/15/2020 - 20:59:03: "meerkat<5><STEAM_1:1:25277236><CT>" blinded for 4.59 by "kalo<6><TERRORIST>" from flashbang entindex 176 
+L 04/15/2020 - 20:59:06: "Psyonic<8><STEAM_1:1:30687182><CT>" threw flashbang [-150 726 156] flashbang entindex 176)
+L 04/15/2020 - 20:59:09: "Psyonic<8><STEAM_1:1:30687182><CT>" [-293 458 -80] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-743 624 -12] with "m4a1_silencer"
+L 04/15/2020 - 20:59:09: "meerkat<5><STEAM_1:1:25277236><CT>" assisted killing "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>"
+L 04/15/2020 - 20:59:09: "kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 20:59:09: "Psyonic<8><STEAM_1:1:30687182><CT>" [-297 445 -80] killed "kalo<6><TERRORIST>" [-786 619 -12] with "m4a1_silencer"
+L 04/15/2020 - 20:59:09: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "5") (T "3")
+L 04/15/2020 - 20:59:09: Team "CT" scored "5" with "2" players
+L 04/15/2020 - 20:59:09: Team "TERRORIST" scored "3" with "2" players
+L 04/15/2020 - 20:59:09: World triggered "Round_End"
+L 04/15/2020 - 20:59:13: "kalo<6><TERRORIST>" threw smokegrenade [-1819 -27 -164]
+L 04/15/2020 - 20:59:16: Starting Freeze period
+L 04/15/2020 - 20:59:16: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 20:59:18: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:59:19: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+L 04/15/2020 - 20:59:21: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 20:59:21: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "incgrenade"
+L 04/15/2020 - 20:59:22: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 20:59:22: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 20:59:22: "kalo<6><TERRORIST>" purchased "galilar"
+L 04/15/2020 - 20:59:23: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:59:23: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 20:59:23: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "incgrenade"
+L 04/15/2020 - 20:59:23: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 20:59:23: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 20:59:24: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "flashbang"
+L 04/15/2020 - 20:59:25: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "smokegrenade"
+L 04/15/2020 - 20:59:33: "kalo<6><TERRORIST>" purchased "galilar"
+L 04/15/2020 - 20:59:36: World triggered "Round_Start"
+L 04/15/2020 - 20:59:43: "kalo<6><TERRORIST>" threw flashbang [-268 -1727 353] flashbang entindex 292)
+L 04/15/2020 - 20:59:43: "meerkat<5><STEAM_1:1:25277236><CT>" blinded for 1.68 by "kalo<6><TERRORIST>" from flashbang entindex 292 
+L 04/15/2020 - 20:59:43: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 4.19 by "kalo<6><TERRORIST>" from flashbang entindex 292 
+L 04/15/2020 - 20:59:47: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [477 -1687 -262]
+L 04/15/2020 - 20:59:48: "kalo<6><TERRORIST>" [191 -1467 -176] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-276 -1962 -122] with "galilar" (headshot)
+L 04/15/2020 - 20:59:49: Molotov projectile spawned at -485.708466 -1527.708252 24.369242, velocity 674.358093 -25.746092 14.259039
+L 04/15/2020 - 20:59:50: "meerkat<5><STEAM_1:1:25277236><CT>" threw molotov [296 -1558 -174]
+L 04/15/2020 - 20:59:54: "meerkat<5><STEAM_1:1:25277236><CT>" [-631 -1767 -180] killed "kalo<6><TERRORIST>" [-547 -1455 -13] with "galilar"
+L 04/15/2020 - 20:59:56: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 20:59:56: "meerkat<5><STEAM_1:1:25277236><CT>" [-677 -1514 -168] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [170 -1515 -112] with "inferno"
+L 04/15/2020 - 20:59:56: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "6") (T "3")
+L 04/15/2020 - 20:59:56: Team "CT" scored "6" with "2" players
+L 04/15/2020 - 20:59:56: Team "TERRORIST" scored "3" with "2" players
+L 04/15/2020 - 20:59:56: World triggered "Round_End"
+L 04/15/2020 - 21:00:03: Starting Freeze period
+L 04/15/2020 - 21:00:03: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:00:06: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:00:09: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "p90"
+L 04/15/2020 - 21:00:10: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:00:10: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+L 04/15/2020 - 21:00:11: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:00:11: "kalo<6><TERRORIST>" purchased "deagle"
+L 04/15/2020 - 21:00:12: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:00:12: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:00:12: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:00:12: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:00:12: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:00:17: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "p90"
+L 04/15/2020 - 21:00:18: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:00:23: World triggered "Round_Start"
+L 04/15/2020 - 21:00:24: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:00:24: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 21:00:24: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:00:25: "meerkat<5><STEAM_1:1:25277236><CT>" [-1663 -1356 -263] killed other "func_breakable<135>" [-1330 -973 -131] with "deagle"
+L 04/15/2020 - 21:00:25: "meerkat<5><STEAM_1:1:25277236><CT>" [-1663 -1356 -263] killed other "prop_dynamic<468>" [-1336 -974 -132] with "deagle" (penetrated)
+L 04/15/2020 - 21:00:31: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1916 -290 -116] killed other "prop_dynamic<388>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 21:00:32: Molotov projectile spawned at -1106.154907 -670.931274 -98.388855, velocity 607.343628 177.044357 235.401840
+L 04/15/2020 - 21:00:34: "meerkat<5><STEAM_1:1:25277236><CT>" threw molotov [-67 -368 -164]
+L 04/15/2020 - 21:00:44: "kalo<6><TERRORIST>" threw flashbang [-1141 523 604] flashbang entindex 84)
+L 04/15/2020 - 21:00:44: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.67 by "kalo<6><TERRORIST>" from flashbang entindex 84 
+L 04/15/2020 - 21:00:44: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 2.85 by "kalo<6><TERRORIST>" from flashbang entindex 84 
+L 04/15/2020 - 21:00:44: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 0.70 by "kalo<6><TERRORIST>" from flashbang entindex 84 
+L 04/15/2020 - 21:00:46: "kalo<6><TERRORIST>" threw smokegrenade [-1815 -10 -166]
+L 04/15/2020 - 21:00:56: "kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:00:56: "meerkat<5><STEAM_1:1:25277236><CT>" [-2568 257 -168] killed "kalo<6><TERRORIST>" [-1918 764 15] with "galilar"
+L 04/15/2020 - 21:01:07: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [-1514 803 -35]
+L 04/15/2020 - 21:01:21: "Psyonic<8><STEAM_1:1:30687182><CT>" [-2325 805 -121] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-1578 680 16] with "p90"
+L 04/15/2020 - 21:01:21: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "7") (T "3")
+L 04/15/2020 - 21:01:21: Team "CT" scored "7" with "2" players
+L 04/15/2020 - 21:01:21: Team "TERRORIST" scored "3" with "2" players
+L 04/15/2020 - 21:01:21: World triggered "Round_End"
+L 04/15/2020 - 21:01:28: Starting Freeze period
+L 04/15/2020 - 21:01:28: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:01:34: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "awp"
+L 04/15/2020 - 21:01:34: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:01:35: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:01:35: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:01:35: "kalo<6><TERRORIST>" purchased "deagle"
+L 04/15/2020 - 21:01:35: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:01:37: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:01:37: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:01:37: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:01:37: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:01:38: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:01:40: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "p90"
+L 04/15/2020 - 21:01:43: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:01:43: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 21:01:43: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:01:44: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:01:48: World triggered "Round_Start"
+L 04/15/2020 - 21:01:57: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [392 -1483 -174]
+L 04/15/2020 - 21:01:57: Molotov projectile spawned at -653.584656 -1822.987305 -110.067513, velocity 557.131836 -288.528839 248.958282
+L 04/15/2020 - 21:01:58: "meerkat<5><STEAM_1:1:25277236><CT>" threw molotov [-10 -2156 -36]
+L 04/15/2020 - 21:01:59: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [550 -1725 -251]
+L 04/15/2020 - 21:02:01: "kalo<6><TERRORIST>" threw smokegrenade [-929 -2425 -166]
+L 04/15/2020 - 21:02:05: Molotov projectile spawned at 434.256378 -1457.556030 -131.236465, velocity 116.820778 -665.246521 -53.482048
+L 04/15/2020 - 21:02:06: "Psyonic<8><STEAM_1:1:30687182><CT>" threw molotov [508 -1568 -262]
+L 04/15/2020 - 21:02:11: "kalo<6><TERRORIST>" threw flashbang [97 -1987 -12] flashbang entindex 162)
+L 04/15/2020 - 21:02:23: Molotov projectile spawned at 32.656658 -2333.165039 26.506111, velocity 30.165485 893.908203 104.408234
+L 04/15/2020 - 21:02:25: "kalo<6><TERRORIST>" threw molotov [73 -1657 -166]
+L 04/15/2020 - 21:02:32: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:02:32: "meerkat<5><STEAM_1:1:25277236><CT>" [-1098 -2473 -168] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-31 -2131 26] with "awp"
+L 04/15/2020 - 21:02:34: "meerkat<5><STEAM_1:1:25277236><CT>" [-1046 -2454 -168] killed "kalo<6><TERRORIST>" [-221 -1974 -122] with "awp"
+L 04/15/2020 - 21:02:34: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "8") (T "3")
+L 04/15/2020 - 21:02:34: Team "CT" scored "8" with "2" players
+L 04/15/2020 - 21:02:34: Team "TERRORIST" scored "3" with "2" players
+L 04/15/2020 - 21:02:34: World triggered "Round_End"
+L 04/15/2020 - 21:02:39: "meerkat<5><STEAM_1:1:25277236><CT>" threw smokegrenade [-91 -1843 -166]
+L 04/15/2020 - 21:02:41: Starting Freeze period
+L 04/15/2020 - 21:02:41: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:02:44: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:02:45: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:02:45: "kalo<6><TERRORIST>" purchased "galilar"
+L 04/15/2020 - 21:02:45: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:02:45: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:02:45: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:02:49: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "flashbang"
+L 04/15/2020 - 21:02:50: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "p90"
+L 04/15/2020 - 21:02:53: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:02:53: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:02:56: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:02:56: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:02:57: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:02:58: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:02:58: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_defuser"
+L 04/15/2020 - 21:03:01: World triggered "Round_Start"
+L 04/15/2020 - 21:03:05: "meerkat<5><STEAM_1:1:25277236><CT>" [-1656 -1374 -264] killed other "func_breakable<135>" [-1330 -973 -131] with "deagle"
+L 04/15/2020 - 21:03:05: "meerkat<5><STEAM_1:1:25277236><CT>" [-1656 -1374 -264] killed other "prop_dynamic<468>" [-1336 -974 -132] with "deagle" (penetrated)
+L 04/15/2020 - 21:03:09: "Psyonic<8><STEAM_1:1:30687182><CT>" [-1844 -529 -168] killed other "prop_dynamic<388>" [-1888 -276 -72] with "usp_silencer"
+L 04/15/2020 - 21:03:20: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [-1273 736 -78]
+L 04/15/2020 - 21:03:28: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [-1251 678 -62]
+L 04/15/2020 - 21:03:33: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" threw flashbang [-534 501 79] flashbang entindex 87)
+L 04/15/2020 - 21:03:33: "kalo<6><TERRORIST>" blinded for 0.98 by "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" from flashbang entindex 87 
+L 04/15/2020 - 21:03:33: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 1.00 by "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" from flashbang entindex 87 
+L 04/15/2020 - 21:03:35: Molotov projectile spawned at -2224.169922 817.095276 -51.494766, velocity 676.059814 -96.703354 219.164368
+L 04/15/2020 - 21:03:36: "Psyonic<8><STEAM_1:1:30687182><CT>" threw molotov [-1223 674 -78]
+L 04/15/2020 - 21:03:48: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" threw flashbang [-584 567 167] flashbang entindex 86)
+L 04/15/2020 - 21:03:48: "kalo<6><TERRORIST>" blinded for 0.95 by "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" from flashbang entindex 86 
+L 04/15/2020 - 21:03:48: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 5.01 by "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" from flashbang entindex 86 
+L 04/15/2020 - 21:03:53: "Psyonic<8><STEAM_1:1:30687182><CT>" threw flashbang [-619 629 -67] flashbang entindex 86)
+L 04/15/2020 - 21:03:53: "kalo<6><TERRORIST>" blinded for 4.95 by "Psyonic<8><STEAM_1:1:30687182><CT>" from flashbang entindex 86 
+L 04/15/2020 - 21:03:53: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 1.02 by "Psyonic<8><STEAM_1:1:30687182><CT>" from flashbang entindex 86 
+L 04/15/2020 - 21:03:54: "kalo<6><TERRORIST>" threw flashbang [-1769 511 461] flashbang entindex 135)
+L 04/15/2020 - 21:03:54: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.82 by "kalo<6><TERRORIST>" from flashbang entindex 135 
+L 04/15/2020 - 21:03:59: "kalo<6><TERRORIST>" [-828 551 -84] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-1369 737 -16] with "galilar"
+L 04/15/2020 - 21:04:12: "kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:04:12: "meerkat<5><STEAM_1:1:25277236><CT>" [-823 41 -168] killed "kalo<6><TERRORIST>" [-2016 674 19] with "awp"
+L 04/15/2020 - 21:04:12: "Psyonic<8><STEAM_1:1:30687182><CT>" assisted killing "kalo<6><TERRORIST>"
+L 04/15/2020 - 21:04:15: "meerkat<5><STEAM_1:1:25277236><CT>" [-824 38 -168] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-2012 824 16] with "awp" (headshot)
+L 04/15/2020 - 21:04:15: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "9") (T "3")
+L 04/15/2020 - 21:04:15: Team "CT" scored "9" with "2" players
+L 04/15/2020 - 21:04:15: Team "TERRORIST" scored "3" with "2" players
+L 04/15/2020 - 21:04:15: World triggered "Round_End"
+L 04/15/2020 - 21:04:22: Starting Freeze period
+L 04/15/2020 - 21:04:22: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:04:25: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "awp"
+L 04/15/2020 - 21:04:26: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:04:27: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+L 04/15/2020 - 21:04:28: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:04:29: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:04:30: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:04:30: "kalo<6><TERRORIST>" purchased "galilar"
+L 04/15/2020 - 21:04:31: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "p90"
+L 04/15/2020 - 21:04:32: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:04:32: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:04:32: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:04:33: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:04:34: "kalo<6><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 21:04:42: World triggered "Round_Start"
+L 04/15/2020 - 21:04:49: "kalo<6><TERRORIST>" threw flashbang [-290 -1782 378] flashbang entindex 291)
+L 04/15/2020 - 21:04:49: "meerkat<5><STEAM_1:1:25277236><CT>" blinded for 3.53 by "kalo<6><TERRORIST>" from flashbang entindex 291 
+L 04/15/2020 - 21:04:49: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 2.94 by "kalo<6><TERRORIST>" from flashbang entindex 291 
+L 04/15/2020 - 21:04:51: "Psyonic<8><STEAM_1:1:30687182><CT>" threw smokegrenade [322 -1437 -174]
+L 04/15/2020 - 21:04:54: "kalo<6><TERRORIST>" [138 -1672 -168] killed "meerkat<5><STEAM_1:1:25277236><CT>" [-1121 -2460 -104] with "galilar" (headshot)
+L 04/15/2020 - 21:04:55: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [45 -1576 -174] killed other "func_breakable<444>" [-863 -2508 -89] with "p90"
+L 04/15/2020 - 21:04:56: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [273 -1550 -162]
+L 04/15/2020 - 21:05:01: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-234 -2148 -172] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-383 -2167 -132] with "p90"
+L 04/15/2020 - 21:05:01: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "9") (T "4")
+L 04/15/2020 - 21:05:01: Team "CT" scored "9" with "2" players
+L 04/15/2020 - 21:05:01: Team "TERRORIST" scored "4" with "2" players
+L 04/15/2020 - 21:05:01: World triggered "Round_End"
+L 04/15/2020 - 21:05:08: Starting Freeze period
+L 04/15/2020 - 21:05:08: "kalo<6><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:05:09: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:05:10: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:05:10: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "item_defuser"
+L 04/15/2020 - 21:05:13: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "nova"
+L 04/15/2020 - 21:05:15: "kalo<6><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:05:17: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "m4a1"
+L 04/15/2020 - 21:05:18: "kalo<6><TERRORIST>" purchased "p250"
+L 04/15/2020 - 21:05:21: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "fiveseven"
+L 04/15/2020 - 21:05:24: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:05:24: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "item_defuser"
+L 04/15/2020 - 21:05:25: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:05:26: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:05:26: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "flashbang"
+L 04/15/2020 - 21:05:26: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "flashbang"
+L 04/15/2020 - 21:05:28: World triggered "Round_Start"
+L 04/15/2020 - 21:05:28: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:05:32: "meerkat<5><STEAM_1:1:25277236><CT>" [-1547 -945 -190] killed other "func_breakable<135>" [-1330 -973 -131] with "fiveseven"
+L 04/15/2020 - 21:05:34: "meerkat<5><STEAM_1:1:25277236><CT>" [-1828 -608 -168] killed other "prop_dynamic<388>" [-1888 -276 -72] with "fiveseven"
+L 04/15/2020 - 21:05:39: "kalo<6><TERRORIST>" threw flashbang [-1864 423 559] flashbang entindex 135)
+L 04/15/2020 - 21:05:39: "QC Alpha TV<4><BOT><Unassigned>" blinded for 1.61 by "kalo<6><TERRORIST>" from flashbang entindex 135 
+L 04/15/2020 - 21:05:39: "meerkat<5><STEAM_1:1:25277236><CT>" blinded for 2.65 by "kalo<6><TERRORIST>" from flashbang entindex 135 
+L 04/15/2020 - 21:05:39: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 1.67 by "kalo<6><TERRORIST>" from flashbang entindex 135 
+L 04/15/2020 - 21:05:43: "meerkat<5><STEAM_1:1:25277236><CT>" threw flashbang [-1806 815 -42] flashbang entindex 135)
+L 04/15/2020 - 21:05:43: "kalo<6><TERRORIST>" blinded for 3.39 by "meerkat<5><STEAM_1:1:25277236><CT>" from flashbang entindex 135 
+L 04/15/2020 - 21:05:43: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" blinded for 4.24 by "meerkat<5><STEAM_1:1:25277236><CT>" from flashbang entindex 135 
+L 04/15/2020 - 21:05:49: "Psyonic<8><STEAM_1:1:30687182><CT>" [-2203 823 -123] killed "kalo<6><TERRORIST>" [-1895 735 -2] with "nova" (headshot)
+L 04/15/2020 - 21:05:49: "meerkat<5><STEAM_1:1:25277236><CT>" assisted killing "kalo<6><TERRORIST>"
+L 04/15/2020 - 21:05:49: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:05:50: "meerkat<5><STEAM_1:1:25277236><CT>" [-2218 223 -160] killed "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-1734 681 16] with "m4a1"
+L 04/15/2020 - 21:05:50: "Psyonic<8><STEAM_1:1:30687182><CT>" assisted killing "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>"
+L 04/15/2020 - 21:05:50: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "10") (T "4")
+L 04/15/2020 - 21:05:50: Team "CT" scored "10" with "2" players
+L 04/15/2020 - 21:05:50: Team "TERRORIST" scored "4" with "2" players
+L 04/15/2020 - 21:05:50: World triggered "Round_End"
+L 04/15/2020 - 21:05:57: Starting Freeze period
+L 04/15/2020 - 21:05:57: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:06:00: "kalo<6><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:06:00: "kalo<6><TERRORIST>" purchased "galilar"
+L 04/15/2020 - 21:06:00: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:06:00: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:06:00: "kalo<6><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:06:01: "kalo<6><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:06:01: "kalo<6><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:06:01: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:06:01: "Psyonic<8><STEAM_1:1:30687182><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:06:02: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "p90"
+L 04/15/2020 - 21:06:04: "meerkat<5><STEAM_1:1:25277236><CT>" purchased "flashbang"
+L 04/15/2020 - 21:06:04: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:06:05: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:06:06: "kalo<6><TERRORIST>" purchased "deagle"
+L 04/15/2020 - 21:06:07: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:06:16: World triggered "Round_Start"
+L 04/15/2020 - 21:06:22: "kalo<6><TERRORIST>" threw flashbang [-237 -1722 320] flashbang entindex 292)
+L 04/15/2020 - 21:06:22: "Psyonic<8><STEAM_1:1:30687182><CT>" blinded for 3.58 by "kalo<6><TERRORIST>" from flashbang entindex 292 
+L 04/15/2020 - 21:06:27: "Psyonic<8><STEAM_1:1:30687182><CT>" threw hegrenade [138 -1442 -173]
+L 04/15/2020 - 21:06:28: "kalo<6><TERRORIST>" [90 -1434 -176] killed "Psyonic<8><STEAM_1:1:30687182><CT>" [-212 -2159 -124] with "galilar"
+L 04/15/2020 - 21:06:30: "meerkat<5><STEAM_1:1:25277236><CT>" threw hegrenade [131 -1596 -162]
+L 04/15/2020 - 21:06:33: "meerkat<5><STEAM_1:1:25277236><CT>" threw smokegrenade [-676 -1998 -178]
+L 04/15/2020 - 21:06:35: "EmbersAndSparks<7><STEAM_1:0:32629612><TERRORIST>" [-247 -1947 -168] killed "meerkat<5><STEAM_1:1:25277236><CT>" [-576 -2207 -116] with "p90" (headshot)
+L 04/15/2020 - 21:06:35: "kalo<6><TERRORIST>" assisted killing "meerkat<5><STEAM_1:1:25277236><CT>"
+L 04/15/2020 - 21:06:35: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "10") (T "5")
+L 04/15/2020 - 21:06:35: Team "CT" scored "10" with "2" players
+L 04/15/2020 - 21:06:35: Team "TERRORIST" scored "5" with "2" players
+L 04/15/2020 - 21:06:35: World triggered "Round_End"
+L 04/15/2020 - 21:06:50: "meerkat<5><STEAM_1:1:25277236>" switched from team <CT> to <TERRORIST>
+L 04/15/2020 - 21:06:50: "kalo<6>" switched from team <TERRORIST> to <CT>
+L 04/15/2020 - 21:06:50: "EmbersAndSparks<7><STEAM_1:0:32629612>" switched from team <TERRORIST> to <CT>
+L 04/15/2020 - 21:06:50: "Psyonic<8><STEAM_1:1:30687182>" switched from team <CT> to <TERRORIST>
+L 04/15/2020 - 21:06:50: Starting Freeze period
+L 04/15/2020 - 21:06:50: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:07:10: "kalo<6><CT>" purchased "item_kevlar"
+L 04/15/2020 - 21:07:10: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "fiveseven"
+L 04/15/2020 - 21:07:10: World triggered "Round_Start"
+L 04/15/2020 - 21:07:21: "kalo<6><CT>" [-646 -1681 -174] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [295 -1595 -130] with "hkp2000" (headshot)
+L 04/15/2020 - 21:07:22: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [290 -1479 -176] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-784 -2088 -116] with "glock" (headshot)
+L 04/15/2020 - 21:07:27: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:07:27: "kalo<6><CT>" [-514 -1531 -40] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-136 -1547 10] with "hkp2000" (headshot)
+L 04/15/2020 - 21:07:27: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "6") (T "10")
+L 04/15/2020 - 21:07:27: Team "CT" scored "6" with "2" players
+L 04/15/2020 - 21:07:27: Team "TERRORIST" scored "10" with "2" players
+L 04/15/2020 - 21:07:27: World triggered "Round_End"
+L 04/15/2020 - 21:07:34: Starting Freeze period
+L 04/15/2020 - 21:07:34: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:07:37: "kalo<6><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:07:38: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:07:41: "kalo<6><CT>" purchased "mp9"
+L 04/15/2020 - 21:07:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "mp5sd"
+L 04/15/2020 - 21:07:44: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "p90"
+L 04/15/2020 - 21:07:44: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:07:44: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:07:44: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:07:45: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "item_kevlar"
+L 04/15/2020 - 21:07:45: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:07:45: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:07:52: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:07:53: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:07:53: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:07:54: World triggered "Round_Start"
+L 04/15/2020 - 21:08:01: "kalo<6><CT>" [-1921 -311 -119] killed other "prop_dynamic<388>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 21:08:05: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-1844 478 523] flashbang entindex 207)
+L 04/15/2020 - 21:08:05: "QC Alpha TV<4><BOT><Unassigned>" blinded for 1.62 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 207 
+L 04/15/2020 - 21:08:05: "kalo<6><CT>" blinded for 3.88 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 207 
+L 04/15/2020 - 21:08:05: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 2.77 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 207 
+L 04/15/2020 - 21:08:06: Molotov projectile spawned at -2375.025391 470.706604 -96.530647, velocity 582.519104 345.028503 229.419785
+L 04/15/2020 - 21:08:07: "kalo<6><CT>" threw molotov [-1698 872 -46]
+L 04/15/2020 - 21:08:10: "kalo<6><CT>" threw flashbang [-1603 589 -113] flashbang entindex 204)
+L 04/15/2020 - 21:08:10: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.90 by "kalo<6><CT>" from flashbang entindex 204 
+L 04/15/2020 - 21:08:10: "kalo<6><CT>" blinded for 4.07 by "kalo<6><CT>" from flashbang entindex 204 
+L 04/15/2020 - 21:08:11: Molotov projectile spawned at -1347.712280 689.359924 -12.055988, velocity -651.320496 64.487503 165.069611
+L 04/15/2020 - 21:08:13: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw molotov [-2325 786 -124]
+L 04/15/2020 - 21:08:15: "kalo<6><CT>" threw flashbang [-1798 739 -34] flashbang entindex 178)
+L 04/15/2020 - 21:08:15: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 0.88 by "kalo<6><CT>" from flashbang entindex 178 
+L 04/15/2020 - 21:08:15: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 4.25 by "kalo<6><CT>" from flashbang entindex 178 
+L 04/15/2020 - 21:08:20: "kalo<6><CT>" threw smokegrenade [-1575 796 -46]
+L 04/15/2020 - 21:08:25: "kalo<6><CT>" [-1729 540 -168] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-2291 491 -104] with "mp9" (headshot)
+L 04/15/2020 - 21:08:33: "kalo<6><CT>" threw flashbang [-1744 844 -29] flashbang entindex 177)
+L 04/15/2020 - 21:08:33: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 1.05 by "kalo<6><CT>" from flashbang entindex 177 
+L 04/15/2020 - 21:08:33: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 1.05 by "kalo<6><CT>" from flashbang entindex 177 
+L 04/15/2020 - 21:08:35: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:08:35: "kalo<6><CT>" [-2522 303 -168] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-1770 816 -2] with "mp9" (headshot)
+L 04/15/2020 - 21:08:35: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "7") (T "10")
+L 04/15/2020 - 21:08:35: Team "CT" scored "7" with "2" players
+L 04/15/2020 - 21:08:35: Team "TERRORIST" scored "10" with "2" players
+L 04/15/2020 - 21:08:35: World triggered "Round_End"
+L 04/15/2020 - 21:08:42: Starting Freeze period
+L 04/15/2020 - 21:08:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:08:46: "kalo<6><CT>" purchased "mp9"
+L 04/15/2020 - 21:08:46: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:08:46: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:08:46: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:08:47: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:08:47: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "tec9"
+L 04/15/2020 - 21:08:54: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "ump45"
+L 04/15/2020 - 21:08:54: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:09:02: World triggered "Round_Start"
+L 04/15/2020 - 21:09:04: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:09:04: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:09:05: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:09:08: Molotov projectile spawned at -650.688293 -2265.775146 -111.394585, velocity 675.876770 671.971069 192.972397
+L 04/15/2020 - 21:09:10: "kalo<6><CT>" threw molotov [306 -1528 -174]
+L 04/15/2020 - 21:09:14: "kalo<6><CT>" threw flashbang [757 -1527 -249] flashbang entindex 180)
+L 04/15/2020 - 21:09:16: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-186 -2061 44] flashbang entindex 203)
+L 04/15/2020 - 21:09:16: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 0.50 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 203 
+L 04/15/2020 - 21:09:25: "kalo<6><CT>" threw smokegrenade [-28 -2148 -36]
+L 04/15/2020 - 21:09:28: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-22 -2170 -164] flashbang entindex 177)
+L 04/15/2020 - 21:09:28: "kalo<6><CT>" blinded for 3.70 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 177 
+L 04/15/2020 - 21:09:28: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 3.78 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 177 
+L 04/15/2020 - 21:09:42: "kalo<6><CT>" threw flashbang [43 -2214 -25] flashbang entindex 177)
+L 04/15/2020 - 21:09:42: "kalo<6><CT>" blinded for 0.76 by "kalo<6><CT>" from flashbang entindex 177 
+L 04/15/2020 - 21:09:42: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 3.75 by "kalo<6><CT>" from flashbang entindex 177 
+L 04/15/2020 - 21:09:42: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 0.82 by "kalo<6><CT>" from flashbang entindex 177 
+L 04/15/2020 - 21:09:47: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [349 -1565 -186] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-496 -1535 24] with "tec9" (headshot)
+L 04/15/2020 - 21:09:50: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [248 -1452 -176] killed "kalo<6><CT>" [-58 -1845 -104] with "tec9" (headshot)
+L 04/15/2020 - 21:09:50: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "7") (T "11")
+L 04/15/2020 - 21:09:50: Team "CT" scored "7" with "2" players
+L 04/15/2020 - 21:09:50: Team "TERRORIST" scored "11" with "2" players
+L 04/15/2020 - 21:09:50: World triggered "Round_End"
+L 04/15/2020 - 21:09:57: Starting Freeze period
+L 04/15/2020 - 21:09:57: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:09:59: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:10:01: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 21:10:01: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:10:02: "kalo<6><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:10:02: "kalo<6><CT>" purchased "mp9"
+L 04/15/2020 - 21:10:03: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:10:03: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:10:03: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:10:03: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:10:04: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:10:06: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:10:06: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 21:10:07: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:10:07: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:10:08: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:10:10: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:10:12: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:10:13: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "fiveseven"
+L 04/15/2020 - 21:10:17: World triggered "Round_Start"
+L 04/15/2020 - 21:10:22: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:10:29: "kalo<6><CT>" threw smokegrenade [-1506 754 -46]
+L 04/15/2020 - 21:10:29: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-1856 436 513] flashbang entindex 299)
+L 04/15/2020 - 21:10:29: "QC Alpha TV<4><BOT><Unassigned>" blinded for 1.64 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 299 
+L 04/15/2020 - 21:10:29: "kalo<6><CT>" blinded for 0.82 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 299 
+L 04/15/2020 - 21:10:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw hegrenade [-1935 740 -29]
+L 04/15/2020 - 21:10:46: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw hegrenade [-2014 752 -46]
+L 04/15/2020 - 21:10:51: "kalo<6><CT>" [-1543 856 -9] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-1465 694 16] with "mp9" (headshot)
+L 04/15/2020 - 21:10:52: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:10:52: "kalo<6><CT>" [-1560 770 -48] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-1182 705 -34] with "mp9"
+L 04/15/2020 - 21:10:52: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "8") (T "11")
+L 04/15/2020 - 21:10:52: Team "CT" scored "8" with "2" players
+L 04/15/2020 - 21:10:52: Team "TERRORIST" scored "11" with "2" players
+L 04/15/2020 - 21:10:52: World triggered "Round_End"
+L 04/15/2020 - 21:10:54: Molotov projectile spawned at -2315.728760 283.946198 -102.458389, velocity 671.014526 36.116825 63.718636
+L 04/15/2020 - 21:10:55: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw molotov [-1737 315 -166]
+L 04/15/2020 - 21:10:59: Starting Freeze period
+L 04/15/2020 - 21:10:59: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:11:05: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:11:05: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:11:06: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:11:07: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:11:07: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "m4a1_silencer"
+L 04/15/2020 - 21:11:08: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:11:10: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:11:13: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:11:16: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:11:19: World triggered "Round_Start"
+L 04/15/2020 - 21:11:29: "kalo<6><CT>" threw smokegrenade [471 -1664 -254]
+L 04/15/2020 - 21:11:32: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw flashbang [-50 -1479 -148] flashbang entindex 204)
+L 04/15/2020 - 21:11:32: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 0.60 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 204 
+L 04/15/2020 - 21:11:32: "kalo<6><CT>" threw flashbang [418 -1609 -201] flashbang entindex 249)
+L 04/15/2020 - 21:11:32: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 1.02 by "kalo<6><CT>" from flashbang entindex 249 
+L 04/15/2020 - 21:11:32: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 3.55 by "kalo<6><CT>" from flashbang entindex 249 
+L 04/15/2020 - 21:11:33: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [229 -1498 -174] flashbang entindex 290)
+L 04/15/2020 - 21:11:33: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 1.00 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 290 
+L 04/15/2020 - 21:11:33: "kalo<6><CT>" blinded for 3.95 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 290 
+L 04/15/2020 - 21:11:33: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 1.02 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 290 
+L 04/15/2020 - 21:11:33: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 4.90 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 290 
+L 04/15/2020 - 21:11:37: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:11:37: "kalo<6><CT>" [-86 -1934 -168] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-91 -1418 -70] with "mp9" (headshot)
+L 04/15/2020 - 21:11:43: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw smokegrenade [179 -1440 -174]
+L 04/15/2020 - 21:11:49: Molotov projectile spawned at -440.630890 -1952.510986 -113.970863, velocity 691.899048 387.893494 84.285751
+L 04/15/2020 - 21:11:50: "kalo<6><CT>" threw molotov [203 -1592 -174]
+L 04/15/2020 - 21:11:58: "kalo<6><CT>" threw flashbang [524 -1620 -231] flashbang entindex 126)
+L 04/15/2020 - 21:11:58: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 4.48 by "kalo<6><CT>" from flashbang entindex 126 
+L 04/15/2020 - 21:11:58: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 4.48 by "kalo<6><CT>" from flashbang entindex 126 
+L 04/15/2020 - 21:12:11: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [204 -1524 -158] flashbang entindex 126)
+L 04/15/2020 - 21:12:11: "kalo<6><CT>" blinded for 0.67 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 126 
+L 04/15/2020 - 21:12:11: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 3.71 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 126 
+L 04/15/2020 - 21:12:14: "kalo<6><CT>" [-539 -1604 -40] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [697 -1576 -218] with "mp9"
+L 04/15/2020 - 21:12:14: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "9") (T "11")
+L 04/15/2020 - 21:12:14: Team "CT" scored "9" with "2" players
+L 04/15/2020 - 21:12:14: Team "TERRORIST" scored "11" with "2" players
+L 04/15/2020 - 21:12:14: World triggered "Round_End"
+L 04/15/2020 - 21:12:21: Starting Freeze period
+L 04/15/2020 - 21:12:21: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:12:24: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:12:24: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:12:24: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:12:24: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:12:25: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "tec9"
+L 04/15/2020 - 21:12:29: "kalo<6><CT>" purchased "deagle"
+L 04/15/2020 - 21:12:31: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:12:35: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "hegrenade"
+L 04/15/2020 - 21:12:35: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "ump45"
+L 04/15/2020 - 21:12:36: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:12:41: World triggered "Round_Start"
+L 04/15/2020 - 21:12:49: "kalo<6><CT>" [-1925 -319 -168] killed other "prop_dynamic<388>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 21:12:53: "kalo<6><CT>" threw smokegrenade [-1507 687 -46]
+L 04/15/2020 - 21:13:02: "kalo<6><CT>" threw flashbang [-1685 740 -37] flashbang entindex 89)
+L 04/15/2020 - 21:13:02: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 4.89 by "kalo<6><CT>" from flashbang entindex 89 
+L 04/15/2020 - 21:13:04: "kalo<6><CT>" threw flashbang [-553 -536 63] flashbang entindex 89)
+L 04/15/2020 - 21:13:06: Molotov projectile spawned at -1502.204468 203.365738 -96.987938, velocity -391.897278 636.406372 294.502991
+L 04/15/2020 - 21:13:07: "kalo<6><CT>" threw molotov [-1816 768 -46]
+L 04/15/2020 - 21:13:23: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw hegrenade [-1723 861 -34]
+L 04/15/2020 - 21:13:27: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-1149 793 -80] killed "kalo<6><CT>" [-2114 697 -20] with "tec9"
+L 04/15/2020 - 21:13:27: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" assisted killing "kalo<6><CT>"
+L 04/15/2020 - 21:13:29: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-1607 861 -45] flashbang entindex 126)
+L 04/15/2020 - 21:13:29: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 0.79 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 126 
+L 04/15/2020 - 21:13:29: "kalo<6><CT>" blinded for 4.40 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 126 
+L 04/15/2020 - 21:13:29: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 1.01 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 126 
+L 04/15/2020 - 21:13:32: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-1910 738 -48] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-2383 481 -102] with "ump45" (headshot)
+L 04/15/2020 - 21:13:32: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "9") (T "12")
+L 04/15/2020 - 21:13:32: Team "CT" scored "9" with "2" players
+L 04/15/2020 - 21:13:32: Team "TERRORIST" scored "12" with "2" players
+L 04/15/2020 - 21:13:32: World triggered "Round_End"
+L 04/15/2020 - 21:13:39: Starting Freeze period
+L 04/15/2020 - 21:13:39: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:13:43: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:13:44: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:13:45: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:13:46: "kalo<6><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:13:46: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:13:46: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 21:13:46: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:13:46: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "m4a1_silencer"
+L 04/15/2020 - 21:13:46: "kalo<6><CT>" purchased "mp9"
+L 04/15/2020 - 21:13:46: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:13:46: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:13:46: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:13:47: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:13:47: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:13:47: "kalo<6><CT>" purchased "deagle"
+L 04/15/2020 - 21:13:49: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:13:51: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:13:52: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:13:59: World triggered "Round_Start"
+L 04/15/2020 - 21:14:07: "kalo<6><CT>" threw smokegrenade [255 -1476 -174]
+L 04/15/2020 - 21:14:12: "kalo<6><CT>" threw flashbang [-491 -584 223] flashbang entindex 291)
+L 04/15/2020 - 21:14:16: "kalo<6><CT>" threw flashbang [180 -916 366] flashbang entindex 208)
+L 04/15/2020 - 21:14:16: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 2.41 by "kalo<6><CT>" from flashbang entindex 208 
+L 04/15/2020 - 21:14:16: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 0.36 by "kalo<6><CT>" from flashbang entindex 208 
+L 04/15/2020 - 21:14:18: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw smokegrenade [-749 -1759 -178]
+L 04/15/2020 - 21:14:19: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw hegrenade [-543 -1667 -145]
+L 04/15/2020 - 21:14:20: Molotov projectile spawned at -156.234756 -2060.588379 -102.782837, velocity 277.036255 837.564209 50.030792
+L 04/15/2020 - 21:14:20: "kalo<6><CT>" threw molotov [74 -1439 -174]
+L 04/15/2020 - 21:14:27: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-139 -1545 -42] flashbang entindex 175)
+L 04/15/2020 - 21:14:27: "kalo<6><CT>" blinded for 0.88 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 175 
+L 04/15/2020 - 21:14:27: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 1.82 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 175 
+L 04/15/2020 - 21:14:27: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 3.82 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 175 
+L 04/15/2020 - 21:14:28: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw flashbang [-224 -1640 -142] flashbang entindex 208)
+L 04/15/2020 - 21:14:28: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 4.38 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 208 
+L 04/15/2020 - 21:14:28: "kalo<6><CT>" blinded for 4.13 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 208 
+L 04/15/2020 - 21:14:28: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 0.91 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 208 
+L 04/15/2020 - 21:14:31: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-276 -2174 -172] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-377 -2184 -112] with "m4a1_silencer"
+L 04/15/2020 - 21:14:33: "kalo<6><CT>" [-725 -2186 -180] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-430 -2230 -110] with "deagle"
+L 04/15/2020 - 21:14:43: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-159 -1562 -52] flashbang entindex 86)
+L 04/15/2020 - 21:14:43: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 1.03 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 86 
+L 04/15/2020 - 21:14:43: "kalo<6><CT>" blinded for 3.82 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 86 
+L 04/15/2020 - 21:14:43: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 3.82 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 86 
+L 04/15/2020 - 21:14:43: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 1.03 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 86 
+L 04/15/2020 - 21:14:48: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-204 -2150 -169] killed "kalo<6><CT>" [-756 -2177 -132] with "mp9"
+L 04/15/2020 - 21:14:48: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "9") (T "13")
+L 04/15/2020 - 21:14:48: Team "CT" scored "9" with "2" players
+L 04/15/2020 - 21:14:48: Team "TERRORIST" scored "13" with "2" players
+L 04/15/2020 - 21:14:48: World triggered "Round_End"
+L 04/15/2020 - 21:14:55: Starting Freeze period
+L 04/15/2020 - 21:14:55: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:14:57: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "awp"
+L 04/15/2020 - 21:14:58: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:14:59: "kalo<6><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:15:00: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "deagle"
+L 04/15/2020 - 21:15:00: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:15:00: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "awp"
+L 04/15/2020 - 21:15:01: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:15:01: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:15:01: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:15:03: "kalo<6><CT>" purchased "deagle"
+L 04/15/2020 - 21:15:04: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:15:04: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:15:04: "kalo<6><CT>" purchased "mp9"
+L 04/15/2020 - 21:15:05: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:15:05: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:15:09: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:15:11: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:15:14: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" say_team "going through mid"
+L 04/15/2020 - 21:15:15: World triggered "Round_Start"
+L 04/15/2020 - 21:15:23: "kalo<6><CT>" [-1920 -313 -127] killed other "prop_dynamic<388>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 21:15:28: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw smokegrenade [-1387 457 -166]
+L 04/15/2020 - 21:15:31: "kalo<6><CT>" threw smokegrenade [-1641 711 -46]
+L 04/15/2020 - 21:15:33: Molotov projectile spawned at -1740.412720 130.765366 -96.247086, velocity -79.285873 611.572998 274.439819
+L 04/15/2020 - 21:15:34: "kalo<6><CT>" threw molotov [-1838 825 -2]
+L 04/15/2020 - 21:15:36: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-763 19 -167] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-1117 244 -109] with "awp"
+L 04/15/2020 - 21:15:42: "kalo<6><CT>" threw flashbang [-854 140 -88] flashbang entindex 203)
+L 04/15/2020 - 21:15:42: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.69 by "kalo<6><CT>" from flashbang entindex 203 
+L 04/15/2020 - 21:15:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 5.10 by "kalo<6><CT>" from flashbang entindex 203 
+L 04/15/2020 - 21:15:46: Molotov projectile spawned at -992.080994 -117.155746 -99.201958, velocity 539.113892 352.902740 201.099197
+L 04/15/2020 - 21:15:48: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw molotov [-948 228 -171]
+L 04/15/2020 - 21:15:52: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-935 273 13] flashbang entindex 203)
+L 04/15/2020 - 21:15:52: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.71 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 203 
+L 04/15/2020 - 21:15:55: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-763 87 -168] flashbang entindex 203)
+L 04/15/2020 - 21:15:55: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.65 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 203 
+L 04/15/2020 - 21:15:55: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 0.34 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 203 
+L 04/15/2020 - 21:16:19: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:16:19: "kalo<6><CT>" [-1252 496 -163] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-2234 589 -88] with "mp9" (headshot)
+L 04/15/2020 - 21:16:25: "kalo<6><CT>" threw flashbang [-958 256 -16] flashbang entindex 203)
+L 04/15/2020 - 21:16:25: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.72 by "kalo<6><CT>" from flashbang entindex 203 
+L 04/15/2020 - 21:16:25: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 5.05 by "kalo<6><CT>" from flashbang entindex 203 
+L 04/15/2020 - 21:16:25: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 5.05 by "kalo<6><CT>" from flashbang entindex 203 
+L 04/15/2020 - 21:16:26: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-923 241 -172] killed "kalo<6><CT>" [-1238 277 -117] with "tec9"
+L 04/15/2020 - 21:16:26: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" assisted killing "kalo<6><CT>"
+L 04/15/2020 - 21:16:26: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "9") (T "14")
+L 04/15/2020 - 21:16:26: Team "CT" scored "9" with "2" players
+L 04/15/2020 - 21:16:26: Team "TERRORIST" scored "14" with "2" players
+L 04/15/2020 - 21:16:26: World triggered "Round_End"
+L 04/15/2020 - 21:16:33: Starting Freeze period
+L 04/15/2020 - 21:16:33: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:16:36: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:16:37: "kalo<6><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:16:37: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:16:37: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "item_kevlar"
+L 04/15/2020 - 21:16:39: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:16:40: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:16:40: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:16:41: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:16:41: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:16:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:16:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:16:43: "kalo<6><CT>" purchased "deagle"
+L 04/15/2020 - 21:16:44: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:16:44: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:16:44: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:16:44: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:16:46: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "deagle"
+L 04/15/2020 - 21:16:46: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:16:47: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:16:53: World triggered "Round_Start"
+L 04/15/2020 - 21:16:59: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [276 -1515 421] flashbang entindex 299)
+L 04/15/2020 - 21:16:59: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 3.00 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 299 
+L 04/15/2020 - 21:16:59: "kalo<6><CT>" blinded for 3.10 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 299 
+L 04/15/2020 - 21:16:59: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 0.61 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 299 
+L 04/15/2020 - 21:17:03: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw smokegrenade [-499 -2122 -178]
+L 04/15/2020 - 21:17:03: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw flashbang [820 -1377 -2] flashbang entindex 299)
+L 04/15/2020 - 21:17:03: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 1.95 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 299 
+L 04/15/2020 - 21:17:12: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [288 -1507 -176] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-10 -1739 -104] with "ak47"
+L 04/15/2020 - 21:17:15: "kalo<6><CT>" threw smokegrenade [-90 -1734 -166]
+L 04/15/2020 - 21:17:17: Molotov projectile spawned at 659.972412 -2222.837891 26.949873, velocity -628.489624 -213.224991 123.129356
+L 04/15/2020 - 21:17:18: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw molotov [32 -2344 -38]
+L 04/15/2020 - 21:17:20: "kalo<6><CT>" [-731 -2082 -180] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-143 -1489 -5] with "deagle" (headshot)
+L 04/15/2020 - 21:17:25: "kalo<6><CT>" threw flashbang [56 -2026 -22] flashbang entindex 126)
+L 04/15/2020 - 21:17:29: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:17:29: "kalo<6><CT>" [-143 -1418 -72] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [132 -2352 24] with "ak47" (headshot)
+L 04/15/2020 - 21:17:29: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "10") (T "14")
+L 04/15/2020 - 21:17:29: Team "CT" scored "10" with "2" players
+L 04/15/2020 - 21:17:29: Team "TERRORIST" scored "14" with "2" players
+L 04/15/2020 - 21:17:29: World triggered "Round_End"
+L 04/15/2020 - 21:17:36: Starting Freeze period
+L 04/15/2020 - 21:17:36: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:17:41: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:17:41: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:17:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:17:44: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:17:45: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:17:46: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:17:49: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:17:50: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:17:50: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:17:51: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:17:52: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "mp5sd"
+L 04/15/2020 - 21:17:52: "kalo<6><CT>" purchased "m4a1_silencer"
+L 04/15/2020 - 21:17:55: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:17:56: World triggered "Round_Start"
+L 04/15/2020 - 21:18:04: "kalo<6><CT>" [-1913 -302 -124] killed other "prop_dynamic<388>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 21:18:07: "kalo<6><CT>" threw smokegrenade [-1511 685 -46]
+L 04/15/2020 - 21:18:08: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-1688 451 655] flashbang entindex 293)
+L 04/15/2020 - 21:18:08: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.25 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 293 
+L 04/15/2020 - 21:18:08: "kalo<6><CT>" blinded for 1.59 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 293 
+L 04/15/2020 - 21:18:08: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 2.57 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 293 
+L 04/15/2020 - 21:18:08: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 2.59 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 293 
+L 04/15/2020 - 21:18:12: "kalo<6><CT>" threw flashbang [-1553 825 -14] flashbang entindex 127)
+L 04/15/2020 - 21:18:26: Molotov projectile spawned at -2331.856201 462.915283 -97.370773, velocity 623.604309 408.739044 278.352295
+L 04/15/2020 - 21:18:28: "kalo<6><CT>" threw molotov [-1530 776 -46]
+L 04/15/2020 - 21:18:30: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-1927 735 -13] flashbang entindex 127)
+L 04/15/2020 - 21:18:30: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 0.70 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 127 
+L 04/15/2020 - 21:18:32: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw smokegrenade [-1328 729 -78]
+L 04/15/2020 - 21:18:37: Molotov projectile spawned at -1231.129761 703.336670 -11.039111, velocity -758.534363 48.643047 207.969147
+L 04/15/2020 - 21:18:39: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw molotov [-2333 762 -121]
+L 04/15/2020 - 21:18:42: "kalo<6><CT>" threw flashbang [-1636 749 -45] flashbang entindex 86)
+L 04/15/2020 - 21:18:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 4.41 by "kalo<6><CT>" from flashbang entindex 86 
+L 04/15/2020 - 21:18:45: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-1727 465 -142] flashbang entindex 86)
+L 04/15/2020 - 21:18:45: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.97 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 86 
+L 04/15/2020 - 21:18:45: "kalo<6><CT>" blinded for 0.91 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 86 
+L 04/15/2020 - 21:18:45: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 4.64 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 86 
+L 04/15/2020 - 21:18:57: "kalo<6><CT>" [-2308 813 -119] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-1467 692 16] with "deagle" (headshot)
+L 04/15/2020 - 21:18:59: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-825 68 -166] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-1402 386 -104] with "ak47"
+L 04/15/2020 - 21:19:03: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:19:03: "kalo<6><CT>" [-2338 347 -168] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-1041 177 -109] with "deagle"
+L 04/15/2020 - 21:19:03: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "11") (T "14")
+L 04/15/2020 - 21:19:03: Team "CT" scored "11" with "2" players
+L 04/15/2020 - 21:19:03: Team "TERRORIST" scored "14" with "2" players
+L 04/15/2020 - 21:19:03: World triggered "Round_End"
+L 04/15/2020 - 21:19:10: Starting Freeze period
+L 04/15/2020 - 21:19:10: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:19:19: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:19:21: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:19:21: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:19:21: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:19:23: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "ssg08"
+L 04/15/2020 - 21:19:24: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "m4a1_silencer"
+L 04/15/2020 - 21:19:26: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:19:26: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:19:27: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:19:28: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:19:30: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:19:30: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:19:30: World triggered "Round_Start"
+L 04/15/2020 - 21:19:41: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw smokegrenade [274 -1526 -174]
+L 04/15/2020 - 21:19:49: "kalo<6><CT>" [-708 -1409 -168] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-610 -746 -216] with "awp"
+L 04/15/2020 - 21:20:06: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:20:06: "kalo<6><CT>" [-494 -1599 -40] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [629 -1585 -200] with "awp"
+L 04/15/2020 - 21:20:06: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "12") (T "14")
+L 04/15/2020 - 21:20:06: Team "CT" scored "12" with "2" players
+L 04/15/2020 - 21:20:06: Team "TERRORIST" scored "14" with "2" players
+L 04/15/2020 - 21:20:06: World triggered "Round_End"
+L 04/15/2020 - 21:20:13: Starting Freeze period
+L 04/15/2020 - 21:20:13: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:20:20: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "deagle"
+L 04/15/2020 - 21:20:21: "kalo<6><CT>" purchased "nova"
+L 04/15/2020 - 21:20:23: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:20:28: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "deagle"
+L 04/15/2020 - 21:20:30: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:20:30: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:20:33: World triggered "Round_Start"
+L 04/15/2020 - 21:20:40: "kalo<6><CT>" [-1921 -320 -122] killed other "prop_dynamic<388>" [-1888 -276 -72] with "knife"
+L 04/15/2020 - 21:20:44: "kalo<6><CT>" threw smokegrenade [-1508 715 -46]
+L 04/15/2020 - 21:20:45: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw smokegrenade [-1586 527 -166]
+L 04/15/2020 - 21:20:56: "kalo<6><CT>" threw flashbang [-1642 831 -7] flashbang entindex 175)
+L 04/15/2020 - 21:20:56: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 0.56 by "kalo<6><CT>" from flashbang entindex 175 
+L 04/15/2020 - 21:20:56: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 0.68 by "kalo<6><CT>" from flashbang entindex 175 
+L 04/15/2020 - 21:20:57: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-1525 784 -32] flashbang entindex 180)
+L 04/15/2020 - 21:21:01: "kalo<6><CT>" threw flashbang [-1456 762 -45] flashbang entindex 175)
+L 04/15/2020 - 21:21:01: "kalo<6><CT>" blinded for 3.89 by "kalo<6><CT>" from flashbang entindex 175 
+L 04/15/2020 - 21:21:01: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 4.56 by "kalo<6><CT>" from flashbang entindex 175 
+L 04/15/2020 - 21:21:19: Molotov projectile spawned at -2081.690430 431.715607 -90.259750, velocity 560.183472 289.502441 240.848160
+L 04/15/2020 - 21:21:20: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-1725 868 -46] flashbang entindex 88)
+L 04/15/2020 - 21:21:20: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 0.64 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 88 
+L 04/15/2020 - 21:21:21: "kalo<6><CT>" threw molotov [-1316 814 -78]
+L 04/15/2020 - 21:21:31: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-1198 672 -80] killed "kalo<6><CT>" [-1979 771 16] with "deagle"
+L 04/15/2020 - 21:21:33: Molotov projectile spawned at -2498.899170 487.903900 -96.934616, velocity 586.504456 237.618149 234.893799
+L 04/15/2020 - 21:21:34: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw molotov [-1793 774 -46]
+L 04/15/2020 - 21:21:37: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-1985 704 -48] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-2513 482 -103] with "deagle" (headshot)
+L 04/15/2020 - 21:21:37: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "12") (T "15")
+L 04/15/2020 - 21:21:37: Team "CT" scored "12" with "2" players
+L 04/15/2020 - 21:21:37: Team "TERRORIST" scored "15" with "2" players
+L 04/15/2020 - 21:21:37: World triggered "Round_End"
+L 04/15/2020 - 21:21:44: Starting Freeze period
+L 04/15/2020 - 21:21:44: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:21:49: "kalo<6><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:21:50: "kalo<6><CT>" purchased "deagle"
+L 04/15/2020 - 21:21:52: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:21:52: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:21:53: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:21:53: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:21:53: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:21:53: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "hegrenade"
+L 04/15/2020 - 21:21:54: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:21:55: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:21:55: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:21:56: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:21:56: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "m4a1_silencer"
+L 04/15/2020 - 21:22:00: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:22:00: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:22:01: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:22:01: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:22:04: World triggered "Round_Start"
+L 04/15/2020 - 21:22:05: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:22:10: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" threw flashbang [-129 -1669 555] flashbang entindex 299)
+L 04/15/2020 - 21:22:10: "kalo<6><CT>" blinded for 3.62 by "meerkat<5><STEAM_1:1:25277236><TERRORIST>" from flashbang entindex 299 
+L 04/15/2020 - 21:22:13: "kalo<6><CT>" threw flashbang [454 -1611 -230] flashbang entindex 300)
+L 04/15/2020 - 21:22:13: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 1.02 by "kalo<6><CT>" from flashbang entindex 300 
+L 04/15/2020 - 21:22:15: "kalo<6><CT>" threw flashbang [499 -1592 -253] flashbang entindex 303)
+L 04/15/2020 - 21:22:15: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 0.96 by "kalo<6><CT>" from flashbang entindex 303 
+L 04/15/2020 - 21:22:15: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" triggered "Dropped_The_Bomb"
+L 04/15/2020 - 21:22:15: "kalo<6><CT>" [139 -1614 -170] killed "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [206 -1555 -112] with "deagle"
+L 04/15/2020 - 21:22:17: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw smokegrenade [477 -1479 -174]
+L 04/15/2020 - 21:22:18: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw smokegrenade [-255 -1720 -166]
+L 04/15/2020 - 21:22:19: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw hegrenade [380 -1540 -210]
+L 04/15/2020 - 21:22:24: Molotov projectile spawned at -743.723572 -2114.421387 -112.231689, velocity 75.950882 863.324707 157.657166
+L 04/15/2020 - 21:22:26: "kalo<6><CT>" threw molotov [-624 -757 -260]
+L 04/15/2020 - 21:22:32: Molotov projectile spawned at 314.527740 -1691.216919 -125.423904, velocity -268.089203 589.059082 191.735626
+L 04/15/2020 - 21:22:34: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw molotov [91 -1631 -170]
+L 04/15/2020 - 21:22:36: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [66 -2291 -36] flashbang entindex 87)
+L 04/15/2020 - 21:22:42: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" threw flashbang [-290 -1630 -157] flashbang entindex 126)
+L 04/15/2020 - 21:22:42: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 4.31 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 126 
+L 04/15/2020 - 21:22:42: "kalo<6><CT>" blinded for 0.70 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 126 
+L 04/15/2020 - 21:22:42: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 4.88 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 126 
+L 04/15/2020 - 21:22:42: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 4.31 by "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" from flashbang entindex 126 
+L 04/15/2020 - 21:22:42: "kalo<6><CT>" threw smokegrenade [297 -1483 -174]
+L 04/15/2020 - 21:22:52: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [269 -1473 -172] flashbang entindex 87)
+L 04/15/2020 - 21:22:57: "kalo<6><CT>" [-515 -1596 -40] killed "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [558 -1607 -218] with "deagle" (headshot)
+L 04/15/2020 - 21:22:57: Team "CT" triggered "SFUI_Notice_CTs_Win" (CT "13") (T "15")
+L 04/15/2020 - 21:22:57: Team "CT" scored "13" with "2" players
+L 04/15/2020 - 21:22:57: Team "TERRORIST" scored "15" with "2" players
+L 04/15/2020 - 21:22:57: World triggered "Round_End"
+L 04/15/2020 - 21:23:04: Starting Freeze period
+L 04/15/2020 - 21:23:04: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" triggered "Got_The_Bomb"
+L 04/15/2020 - 21:23:06: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:23:06: "kalo<6><CT>" purchased "flashbang"
+L 04/15/2020 - 21:23:06: "kalo<6><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:23:06: "kalo<6><CT>" purchased "incgrenade"
+L 04/15/2020 - 21:23:08: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "awp"
+L 04/15/2020 - 21:23:09: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "ak47"
+L 04/15/2020 - 21:23:10: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" purchased "item_kevlar"
+L 04/15/2020 - 21:23:10: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:23:10: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "flashbang"
+L 04/15/2020 - 21:23:11: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" purchased "smokegrenade"
+L 04/15/2020 - 21:23:11: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "item_assaultsuit"
+L 04/15/2020 - 21:23:15: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "smokegrenade"
+L 04/15/2020 - 21:23:16: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:23:16: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "flashbang"
+L 04/15/2020 - 21:23:17: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" purchased "molotov"
+L 04/15/2020 - 21:23:24: World triggered "Round_Start"
+L 04/15/2020 - 21:23:29: "kalo<6><CT>" [-1688 -1373 -260] killed other "func_breakable<135>" [-1330 -973 -131] with "deagle"
+L 04/15/2020 - 21:23:29: "kalo<6><CT>" [-1688 -1373 -260] killed other "prop_dynamic<421>" [-1336 -974 -132] with "deagle" (penetrated)
+L 04/15/2020 - 21:23:35: "kalo<6><CT>" [-1923 -289 -114] killed other "prop_dynamic<452>" [-1888 -276 -72] with "deagle"
+L 04/15/2020 - 21:23:43: "kalo<6><CT>" threw flashbang [-909 703 464] flashbang entindex 135)
+L 04/15/2020 - 21:23:47: "kalo<6><CT>" threw smokegrenade [-1575 797 -46]
+L 04/15/2020 - 21:23:49: Molotov projectile spawned at -2062.809326 428.816132 -89.050568, velocity 688.462952 370.792786 291.860718
+L 04/15/2020 - 21:23:51: "kalo<6><CT>" threw molotov [-1073 698 -78]
+L 04/15/2020 - 21:23:53: "kalo<6><CT>" [-2078 370 -160] killed other "prop_physics_multiplayer<267>" [-1174 594 -80] with "inferno"
+L 04/15/2020 - 21:23:53: "kalo<6><CT>" [-2078 370 -160] killed other "prop_physics_multiplayer<268>" [-1180 548 -80] with "inferno"
+L 04/15/2020 - 21:23:57: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw smokegrenade [-818 250 -170]
+L 04/15/2020 - 21:23:57: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-1133 -209 -56] killed other "prop_dynamic<391>" [-1172 -432 -24] with "ak47"
+L 04/15/2020 - 21:24:05: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-762 91 -152] flashbang entindex 134)
+L 04/15/2020 - 21:24:05: "QC Alpha TV<4><BOT><Unassigned>" blinded for 0.65 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 134 
+L 04/15/2020 - 21:24:05: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 3.89 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 134 
+L 04/15/2020 - 21:24:05: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" blinded for 3.62 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 134 
+L 04/15/2020 - 21:24:11: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" [-1746 -644 -168] killed "kalo<6><CT>" [-2346 433 -104] with "ak47"
+L 04/15/2020 - 21:24:12: "kalo<6><CT>" threw flashbang [-1789 -614 -154] flashbang entindex 134)
+L 04/15/2020 - 21:24:12: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" blinded for 3.64 by "kalo<6><CT>" from flashbang entindex 134 
+L 04/15/2020 - 21:24:18: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" threw flashbang [-2023 -196 -169] flashbang entindex 84)
+L 04/15/2020 - 21:24:18: "kalo<6><CT>" blinded for 4.37 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 84 
+L 04/15/2020 - 21:24:18: "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" blinded for 4.37 by "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" from flashbang entindex 84 
+L 04/15/2020 - 21:24:21: "Psyonic<8><STEAM_1:1:30687182><TERRORIST>" [-1420 455 -168] killed "EmbersAndSparks<7><STEAM_1:0:32629612><CT>" [-2447 149 -100] with "awp"
+L 04/15/2020 - 21:24:21: Team "TERRORIST" triggered "SFUI_Notice_Terrorists_Win" (CT "13") (T "16")
+L 04/15/2020 - 21:24:21: Team "CT" scored "13" with "2" players
+L 04/15/2020 - 21:24:21: Team "TERRORIST" scored "16" with "2" players
+L 04/15/2020 - 21:24:21: World triggered "Round_End"
+L 04/15/2020 - 21:24:21: ACCOLADE, FINAL: {hsp},	kalo<3>,	VALUE: 62.962963,	POS: 1,	SCORE: 41.193417
+L 04/15/2020 - 21:24:21: ACCOLADE, FINAL: {burndamage},	EmbersAndSparks<4>,	VALUE: 97.000000,	POS: 1,	SCORE: 17.236959
+L 04/15/2020 - 21:24:21: ACCOLADE, FINAL: {mvps},	meerkat<2>,	VALUE: 12.000000,	POS: 1,	SCORE: 33.103451
+L 04/15/2020 - 21:24:21: ACCOLADE, FINAL: {hsp},	Psyonic<5>,	VALUE: 38.461540,	POS: 1,	SCORE: 22.136753
+L 04/15/2020 - 21:24:21: Game Over: competitive mg_active de_mirage score 13:16 after 35 min
+L 04/15/2020 - 21:24:21: World triggered "Round_Start"
+L 04/15/2020 - 21:24:23: "meerkat<5><STEAM_1:1:25277236><TERRORIST>" say "gg"
+L 04/15/2020 - 21:24:46: server_cvar: "nextlevel" "de_dust2"
+L 04/15/2020 - 21:24:52: Log file closed
