@@ -77,6 +77,11 @@ function createReportTable(header, player, id) {
         }
     }
 
+    let row = table.insertRow();
+    addCell(`Total spent`, row);
+    addCell('', row);
+    addCell(currencyFormat(parsedList[id].totalSpent), row);
+
     let thead = table.createTHead();
     row = thead.insertRow();
     for(let key of header){
@@ -96,3 +101,6 @@ function addCell(input, row){
     cell.appendChild(text);
 }
 
+function currencyFormat(num) {
+    return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+  }

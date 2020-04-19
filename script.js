@@ -11,7 +11,55 @@ let parsedList = [];
 let playerTables = {};
 let currentPlayer = null;
 
+let prices = {
+"ak47":2700,
+"aug":3300,
+"famas":2050,
+"galilar":1800,
+"m4a1":3100,
+"m4a1_silencer":2900,
+"sg556":3000,
+"awp":4750,
+"gs3sg1":5000,
+"scar20":5000,
+"ssg08":1700,
+"bizon":1400,
+"mac10":1050,
+"mp5sd":1500,
+"mp7":1500,
+"mp9":1250,
+"p90":2350,
+"ump45":1200,
+"m249":5200,
+"mag7":1300,
+"negev":1700,
+"nova":1050,
+"sawedoff":1100,
+"xm1014":2000,
+"cz75a":0500,
+"deagle":0700,
+"elite":0400,
+"fiveseven":0500,
+"glock":0000,
+"hkp2000":0000,
+"p250":0300,
+"revolver":0800,
+"tec9":0500,
+"usp_silencer":0000,
+"hegrenade":0300,
+"molotov":0400,
+"incgrenade":0600,
+"flashbang":0200,
+"smokegrenade":0300,
+"item_kevlar":0600,
+"item_assaultsuit":1000,
+"item_defuser":0400,
+"taser":0400
+};
+
 function runFiles(){
+    // Parse the whole file and make ServerEvent objects
+    // Put them into parsedList[]
     masterList.forEach(element => {
         var date = element[1];
         var time = element[3];
@@ -59,9 +107,13 @@ function runFiles(){
         }
     });
 
+    // Sort the parsedList
     parsedList.sort((a, b) => (a.player < b.player) ? 1 : (a.player === b.player) ? ((a.trigger < b.trigger) ? 1 : (a.trigger === b.trigger) ? ((a.target < b.target) ? 1 : -1) : -1 ) : -1 );
-    delete  parsedList['rcon'];
+
+    // Split by players
     parsedList = groupBy(parsedList, 'player');
+
+    // Delete unneeded items
     for(var el in parsedList){
         parsedList[el] = groupBy(parsedList[el], 'trigger');
         for(var el2 in parsedList[el]){
@@ -70,32 +122,39 @@ function runFiles(){
             delete parsedList[el][el2].func_breakable;
             delete parsedList[el][el2].prop_physics_multiplayer;
         }
+        if(el == "rcon") delete parsedList[el];
+    }
+    
+    // Calculate Prices
+    for(var el in parsedList){
+        var totalSpent = 0;
+        for(var item in parsedList[el]['purchased']){
+            totalSpent += parsedList[el]['purchased'][item].length*prices[item];
+        }
+        parsedList[el].totalSpent = totalSpent;
     }
 
-    
+    // Make HTML Tables
     for(var el in parsedList){
-        if(el != "rcon"){
-            var header = [el,'Qty','Total'];
-            createReportTable(header, parsedList[el], el);
-            var playerLink = $(
-                `<div class="col span_1_of_2">
-                    <div class="run-button">
-                        <label class="button run-btn" for="${el}">${el}</label><br>
-                        <button type="submit" id="${el}"></button>
-                    </div>
-                </div>`);
-            playerLink.appendTo('#players');
-            $(`#${el}`).addClass('input');
-            UIController.createPlayerListeners(el);
-        }
+        var header = [el,'Qty','Total'];
+        createReportTable(header, parsedList[el], el);
+        var playerLink = $(
+            `<div class="col span_1_of_2">
+                <div class="run-button">
+                    <label class="button run-btn" for="${el}">${el}</label><br>
+                    <button type="submit" id="${el}"></button>
+                </div>
+            </div>`);
+        playerLink.appendTo('#players');
+        $(`#${el}`).addClass('input');
+        UIController.createPlayerListeners(el);
     }   
     
-
+    // Show the player screen
     $('#to-hide').removeClass('main-screen');
     $('#to-hide').addClass('anim-out');
     $('#download-btns').addClass('anim-in');
 }
-
 
 function handleFileSelect(files, id) {
     for(x = 0; x < files.length; x++){
@@ -174,7 +233,7 @@ function groupBy(arr, property) {
       memo[x[property]].push(x);
       return memo;
     }, {});
-  }
+}
 
 function playerClick(id){
     currentPlayer = id;

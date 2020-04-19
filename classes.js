@@ -1,5 +1,5 @@
 class ServerEvent{
-    constructor(matchDate, eventTime, player, trigger, target, blindedTime, headshot, penetrated){
+    constructor(matchDate, eventTime, player, trigger, target, blindedTime, headshot, penetrated, team){
         //this.matchDate = matchDate;
         //this.eventTime = eventTime;
         this.player = player.split("<")[0];
@@ -8,5 +8,6 @@ class ServerEvent{
         this.blindedTime = parseFloat(blindedTime);
         this.headshot = headshot;
         this.penetrated = penetrated;
+        this.team = team;
     }
 }
