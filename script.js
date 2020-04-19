@@ -109,17 +109,25 @@ function runFiles(){
         }
         if(el == "rcon") delete parsedList[el];
 
-        //Calculate totalSpent
+        // Calculate totalSpent
         var totalSpent = 0;
         for(var item in parsedList[el]['purchased']){
             totalSpent += parsedList[el]['purchased'][item].length*prices[item];
         }
         parsedList[el].totalSpent = totalSpent;
 
-        //Calculate utility info
+        // Calculate utility info
         utilityRatio(parsedList[el]);
+
+        // Determine Teams
+        for(var e in masterList){
+            parsedList[el].team = 1;
+            if(masterList[e][4].includes(el)){
+                if(masterList[e][4].includes("<TERRORIST>")) parsedList[el].team = 2;
+                break;
+            }
+        }
     }
-    
 
     // Make HTML Tables
     for(var el in parsedList){
@@ -136,8 +144,8 @@ function runFiles(){
         $(`#${el}`).addClass('input');
         UIController.createPlayerListeners(el);
         x++;
-    }   
-    
+    }
+
     // Show the player screen
     $('#to-hide').removeClass('main-screen');
     $('#to-hide').addClass('anim-out');
