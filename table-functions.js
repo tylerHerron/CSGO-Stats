@@ -52,6 +52,28 @@ function createReportTable(header, player, id) {
 
     table = $(`#${id}-table`).get()[0];
 
+    //Insert Total Spent
+    let row = table.insertRow();
+    addCell(`Total spent`, row);
+    addCell('', row);
+    addCell(currencyFormat(parsedList[id].totalSpent), row);
+
+    //Utility Stats
+    row = table.insertRow();
+    addCell('Utility purchased', row);
+    addCell('', row);
+    addCell(parsedList[id].utilityPurchased, row);
+
+    row = table.insertRow();
+    addCell('Utility thrown', row);
+    addCell('', row);
+    addCell(parsedList[id].utilityThrew, row);
+
+    row = table.insertRow();
+    addCell('Utility ratio', row);
+    addCell('', row);
+    addCell(parsedList[id].utilityRatio, row);
+
     for(var trigger in player){
         for(var target in player[trigger]){
             if(!trigger.includes("say")){
@@ -76,11 +98,6 @@ function createReportTable(header, player, id) {
             }
         }
     }
-
-    let row = table.insertRow();
-    addCell(`Total spent`, row);
-    addCell('', row);
-    addCell(currencyFormat(parsedList[id].totalSpent), row);
 
     let thead = table.createTHead();
     row = thead.insertRow();

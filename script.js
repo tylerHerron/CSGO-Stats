@@ -70,7 +70,6 @@ function runFiles(){
         var blindedTime = 0;
         var headshot = element.includes("(headshot)");
         var penetrated = element.includes("(penetrated)");
-        var team = '';
         var flashIndex = null;
 
         if(trigger == "blinded_for"){
@@ -89,7 +88,7 @@ function runFiles(){
             flashIndex = element[9].replace(')', '');
         }
 
-        parsedList.push(new ServerEvent(date, time, player, trigger, target, blindedTime, headshot, penetrated, team, flashIndex));
+        parsedList.push(new ServerEvent(date, time, player, trigger, target, blindedTime, headshot, penetrated, flashIndex));
     });
 
     // Sort the parsedList
@@ -98,8 +97,8 @@ function runFiles(){
     // Split by players
     parsedList = groupBy(parsedList, 'player');
 
-    // Delete unneeded items
     for(var el in parsedList){
+        // Delete unneeded items
         parsedList[el] = groupBy(parsedList[el], 'trigger');
         for(var el2 in parsedList[el]){
             parsedList[el][el2] = groupBy(parsedList[el][el2], 'target');
@@ -108,16 +107,18 @@ function runFiles(){
             delete parsedList[el][el2].prop_physics_multiplayer;
         }
         if(el == "rcon") delete parsedList[el];
-    }
-    
-    // Calculate Prices
-    for(var el in parsedList){
+
+        //Calculate totalSpent
         var totalSpent = 0;
         for(var item in parsedList[el]['purchased']){
             totalSpent += parsedList[el]['purchased'][item].length*prices[item];
         }
         parsedList[el].totalSpent = totalSpent;
+
+        //Calculate utility info
+        utilityRatio(parsedList[el]);
     }
+    
 
     // Make HTML Tables
     for(var el in parsedList){
@@ -239,6 +240,26 @@ function playerClick(id){
         if(p.contains(playerTables[element])) p.removeChild(playerTables[element]);
     }
     p.appendChild(playerTables[id]);
+}
+
+function utilityRatio(player){
+    var purchased = 0;
+    var threw = 0;
+    if(player["purchased"]["hegrenade"] !== undefined) purchased +=    player["purchased"]["hegrenade"].length;
+    if(player["purchased"]["molotov"] !== undefined) purchased +=      player["purchased"]["molotov"].length;
+    if(player["purchased"]["incgrenade"] !== undefined) purchased +=   player["purchased"]["incgrenade"].length;
+    if(player["purchased"]["flashbang"] !== undefined) purchased +=    player["purchased"]["flashbang"].length;
+    if(player["purchased"]["smokegrenade"] !== undefined) purchased += player["purchased"]["smokegrenade"].length;
+
+    if(player["threw"]["hegrenade"] !== undefined) threw +=    player["threw"]["hegrenade"].length;
+    if(player["threw"]["molotov"] !== undefined) threw +=      player["threw"]["molotov"].length;
+    if(player["threw"]["incgrenade"] !== undefined) threw +=   player["threw"]["incgrenade"].length;
+    if(player["threw"]["flashbang"] !== undefined) threw +=    player["threw"]["flashbang"].length;
+    if(player["threw"]["smokegrenade"] !== undefined) threw += player["threw"]["smokegrenade"].length;
+    
+    player.utilityPurchased = purchased;
+    player.utilityThrew     = threw;
+    player.utilityRatio     = parseFloat((threw/purchased).toFixed(2));
 }
 
 UIController.createEventListeners();
