@@ -121,7 +121,6 @@ function runFiles(){
 
     // Make HTML Tables
     for(var el in parsedList){
-        console.log(x);
         var header = [el,'Qty','Total'];
         createReportTable(header, parsedList[el], el);
         var playerLink = $(
@@ -145,8 +144,7 @@ function runFiles(){
 
 function handleFileSelect(files, id) {
     for(x = 0; x < files.length; x++){
-        let file = files[x];
-        console.log(file);    
+        let file = files[x];  
         if(x < files.length+1){
             var reader = new FileReader();
             reader.readAsText(file);
@@ -203,7 +201,6 @@ function download(filename, text) {
     let outputString = '';
 
     text.forEach((el, cur) => {
-        // console.log(el);
         if(cur === text.length-1){
             outputString += (el);
         } else {

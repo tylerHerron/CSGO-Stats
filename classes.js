@@ -4,7 +4,6 @@ class ServerEvent{
         //this.eventTime = eventTime;
         this.player = player.split("<")[0];
         this.trigger = trigger;
-        console.log(`${player} ${trigger} ${target}`);
         this.target = target.split("<")[0];
         this.blindedTime = parseFloat(blindedTime);
         this.headshot = headshot;
