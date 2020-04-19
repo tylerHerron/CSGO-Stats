@@ -54,7 +54,8 @@ let prices = {
 "item_kevlar":0600,
 "item_assaultsuit":1000,
 "item_defuser":0400,
-"taser":0400
+"taser":0400,
+"decoy":0050
 };
 
 function runFiles(){
