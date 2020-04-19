@@ -60,51 +60,36 @@ let prices = {
 function runFiles(){
     // Parse the whole file and make ServerEvent objects
     // Put them into parsedList[]
+    var x = 0;
     masterList.forEach(element => {
         var date = element[1];
         var time = element[3];
         var player = element[4];
+        var trigger = element[5];
+        var target = element[6];    
+        var blindedTime = 0;
+        var headshot = element.includes("(headshot)");
+        var penetrated = element.includes("(penetrated)");
+        var team = '';
+        var flashIndex = null;
 
-        if(element.length == 7){ // purchases
-            if(player != "Starting" && player != "World" && player != "Molotov" && player != "Log" && player != "server_cvar:"){
-                parsedList.push(new ServerEvent(date, time, player, element[5], element[6], 0, false, false));
-            }
-        } else if (element.length == 8){
-            parsedList.push(new ServerEvent(date, time, player, element[5], element[7], 0, false, false));
-        } else if (element.length == 10 || element.length == 13){
-            if(element[12] == "bomb."){
-                parsedList.push(new ServerEvent(date, time, player, 'killed by', 'bomb.', 0, false, false));    
-            } else {
-                parsedList.push(new ServerEvent(date, time, player, element[5], element[6], 0, false, false)); 
-            }
-        }else if (element.length == 14){
-            if(element[5] == "blinded"){
-                parsedList.push(new ServerEvent(date, time, element[9], element[5], element[4], element[7], false, false));
-            }
-        } else if (element.length == 15){
-            if(player != "Molotov"){
-                if(element[15] == "bomb."){
-                    console.log(element);
-                    //parsedList.push(new ServerEvent(date, time, player, element[8], element[9], 0, false, false));
-                } else {
-                    parsedList.push(new ServerEvent(date, time, player, element[8], element[9], 0, false, false));
-                }
-            }
-        } else if (element.length == 16){
-            if(element[15] == "(headshot)"){
-                parsedList.push(new ServerEvent(date, time, player, element[8], element[9], 0, false, false));
-            } else if(element[15] == "(penetrated)"){
-                parsedList.push(new ServerEvent(date, time, player, element[8], element[9], 0, false, true));
-            } else {
-                parsedList.push(new ServerEvent(date, time, player, element[8], element[10], 0, false, false));
-            }
-        } else if (element.length == 17){
-            if(element[8] == "killed"){
-                parsedList.push(new ServerEvent(date, time, player, element[8], element[9], 0, true, true));
-            } else {
-                parsedList.push(new ServerEvent(date, time, player, element[8], element[10], 0, false, true));
-            }
+        if(trigger == "blinded_for"){
+            blindedTime = element[6];
+            target = element[4];
+            player = element[8];
+            flashIndex = element[12];
+            trigger = "blinded";
         }
+
+        if(trigger == "blew_up"){
+            target = " ";
+        }
+
+        if(element[7] == "flashbang"){
+            flashIndex = element[9].replace(')', '');
+        }
+
+        parsedList.push(new ServerEvent(date, time, player, trigger, target, blindedTime, headshot, penetrated, team, flashIndex));
     });
 
     // Sort the parsedList
@@ -136,6 +121,7 @@ function runFiles(){
 
     // Make HTML Tables
     for(var el in parsedList){
+        console.log(x);
         var header = [el,'Qty','Total'];
         createReportTable(header, parsedList[el], el);
         var playerLink = $(
@@ -148,6 +134,7 @@ function runFiles(){
         playerLink.appendTo('#players');
         $(`#${el}`).addClass('input');
         UIController.createPlayerListeners(el);
+        x++;
     }   
     
     // Show the player screen
@@ -177,12 +164,28 @@ function readFileToMaster(file){
     let fileArray = file.split('\n'); // Create an array for every line in file
 
     fileArray.forEach((el) => {
+        //Take out first instance of coords
+        var fixedEl = el.replace(
+            el.slice(el.indexOf('['), el.indexOf(']')+2)
+            ,'');
+
+        //Take out second instance of coords
+        fixedEl = fixedEl.replace(
+            fixedEl.slice(fixedEl.indexOf('['), fixedEl.indexOf(']')+2)
+            ,'');
+
+        //Fix some formatting things.
+        fixedEl = fixedEl.replace("other ",'');
+        fixedEl = fixedEl.replace("blinded for", "blinded_for");
+        fixedEl = fixedEl.replace("assisted killing", "assisted_killing");
+        fixedEl = fixedEl.replace("was killed by the bomb.", "blew_up");
+
         var myRegexp = /[^\s"]+|"([^"]*)"/gi;
         var myArray = [];
 
         do {
             //Each call to exec returns the next regex match as an array
-            var match = myRegexp.exec(el);
+            var match = myRegexp.exec(fixedEl);
             if (match != null)
             {
                 //Index 1 in the array is the captured group if it exists
@@ -190,11 +193,8 @@ function readFileToMaster(file){
                 myArray.push(match[1] ? match[1] : match[0]);
             }
         } while (match != null);
-
-        masterList.push(myArray);
+        if(myArray[4].includes("<CT>") || myArray[4].includes("<TERRORIST>")) masterList.push(myArray);
     });
-
-    console.log('Master read to Master array');
 }
 
 // Recieves filename and a text array.
