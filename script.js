@@ -51,12 +51,16 @@ function runFiles(){
                 parsedList.push(new ServerEvent(date, time, player, element[8], element[10], 0, false, false));
             }
         } else if (element.length == 17){
-            parsedList.push(new ServerEvent(date, time, player, element[8], element[10], 0, false, true));
+            if(element[8] == "killed"){
+                parsedList.push(new ServerEvent(date, time, player, element[8], element[9], 0, true, true));
+            } else {
+                parsedList.push(new ServerEvent(date, time, player, element[8], element[10], 0, false, true));
+            }
         }
     });
 
     parsedList.sort((a, b) => (a.player < b.player) ? 1 : (a.player === b.player) ? ((a.trigger < b.trigger) ? 1 : (a.trigger === b.trigger) ? ((a.target < b.target) ? 1 : -1) : -1 ) : -1 );
-
+    delete  parsedList['rcon'];
     parsedList = groupBy(parsedList, 'player');
     for(var el in parsedList){
         parsedList[el] = groupBy(parsedList[el], 'trigger');
@@ -70,18 +74,20 @@ function runFiles(){
 
     
     for(var el in parsedList){
-        var header = [el,'Qty','Total'];
-        createReportTable(header, parsedList[el], el);
-        var playerLink = $(
-            `<div class="col span_1_of_2">
-                <div class="run-button">
-                    <label class="button run-btn" for="${el}">${el}</label><br>
-                    <button type="submit" id="${el}"></button>
-                </div>
-            </div>`);
-        playerLink.appendTo('#players');
-        $(`#${el}`).addClass('input');
-        UIController.createPlayerListeners(el);
+        if(el != "rcon"){
+            var header = [el,'Qty','Total'];
+            createReportTable(header, parsedList[el], el);
+            var playerLink = $(
+                `<div class="col span_1_of_2">
+                    <div class="run-button">
+                        <label class="button run-btn" for="${el}">${el}</label><br>
+                        <button type="submit" id="${el}"></button>
+                    </div>
+                </div>`);
+            playerLink.appendTo('#players');
+            $(`#${el}`).addClass('input');
+            UIController.createPlayerListeners(el);
+        }
     }   
     
 

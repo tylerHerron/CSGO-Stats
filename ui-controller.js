@@ -49,7 +49,6 @@ var UIController = (function (){
         
             masterUpload.addEventListener('change', e => handleFileSelect(e.target.files, 'master'), false);
             goButton.addEventListener('click', runFiles);
-            downloadExcel.addEventListener('click', downloadExcelReport);
         },
 
         createPlayerListeners: function(id) {
