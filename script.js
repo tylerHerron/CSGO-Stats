@@ -8,6 +8,7 @@
 
 let masterList = [];
 let parsedList = [];
+let parseOriginal = [];
 let playerTables = {};
 let currentPlayer = null;
 
@@ -100,6 +101,7 @@ function runFiles(){
     // Sort the parsedList
     parsedList.sort((a, b) => (a.player < b.player) ? 1 : (a.player === b.player) ? ((a.trigger < b.trigger) ? 1 : (a.trigger === b.trigger) ? ((a.target < b.target) ? 1 : -1) : -1 ) : -1 );
 
+    parseOriginal = parsedList;
     // Split by players
     parsedList = groupBy(parsedList, 'player');
 
@@ -278,29 +280,31 @@ function utilityRatio(player){
 
 function downloadPlayerKills(id){
     killedPlayers = parsedList[id]["killed"];
-    let csvContent = "data:text/csv;charset=utf-8,"
+    let csvPlayerContent = "data:text/csv;charset=utf-8,"
     
     for(var target in killedPlayers){
         console.log(target);
         killedPlayers[target].forEach(element => {
             console.log(element);
-            csvContent += `${id} killed ${element.target} with ${element.gun}.\n`
+            csvPlayerContent += `${id} killed ${element.target} with ${element.gun}.\n`
         });
-        // for(var event in killedPlayers[target]){
-        //     csvContent += `${id} killed ${killedPlayers[target][event][target]} with ${killedPlayers[target][event][gun]},\n`;
-        // }
     }
 
-    var encodedUri = encodeURI(csvContent);
+    var encodedUri = encodeURI(csvPlayerContent);
     window.open(encodedUri);
 }
 
 function downloadAll(){
-    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(parsedList));
-    var dlAnchorElem = document.getElementById('downloadAnchorElem');
-    dlAnchorElem.setAttribute("href",     dataStr     );
-    dlAnchorElem.setAttribute("download", "results.json");
-    dlAnchorElem.click();
+    let csvContent = "data:text/csv;charset=utf-8,Player,Trigger,Event,blindedTime,headshot,penetrated,flashid,gun\n";
+    parseOriginal.forEach(element => {
+        for(var event in element){
+            csvContent += `${element[event]},`;
+        }
+        csvContent += "\n"
+    });
+
+    var encodedUri = encodeURI(csvContent);
+    window.open(encodedUri);
 }
 
 UIController.createEventListeners();
