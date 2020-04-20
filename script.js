@@ -290,8 +290,10 @@ function downloadPlayerKills(id){
         });
     }
 
-    var encodedUri = encodeURI(csvPlayerContent);
-    window.open(encodedUri);
+    var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    dlAnchorElem.setAttribute("href",     csvPlayerContent     );
+    dlAnchorElem.setAttribute("download", `${id}Stats.csv`);
+    dlAnchorElem.click();
 }
 
 function downloadAll(){
@@ -303,8 +305,10 @@ function downloadAll(){
         csvContent += "\n"
     });
 
-    var encodedUri = encodeURI(csvContent);
-    window.open(encodedUri);
+    var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    dlAnchorElem.setAttribute("href",     csvContent     );
+    dlAnchorElem.setAttribute("download", "allEvents.csv");
+    dlAnchorElem.click();
 }
 
 UIController.createEventListeners();
