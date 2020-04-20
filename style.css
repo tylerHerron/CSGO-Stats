@@ -38,7 +38,7 @@
     text-align: center;
     font-size: 48px;
     font-weight: bold;
-    background: linear-gradient(5deg, #f0cdc1, #ebb9a7);
+    background: linear-gradient(5deg, rgb(134, 132, 138), rgb(140, 140, 140));
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px rgba(41, 41, 41, 0.25);
 }
@@ -126,7 +126,7 @@ label {
 }
 
 #bg {
-    background: linear-gradient(-20deg, #e6ac98, #5664a0);
+    background: linear-gradient(-20deg, #0c0f12, #9F9AA4);
     position: fixed; 
     top: -50%; 
     left: -50%; 
@@ -189,7 +189,7 @@ label {
 /*// Button Formatting //*/
 .button {
     font-size: 16px;
-    background: linear-gradient(5deg, #f0cdc1, #ebb9a7);
+    background: linear-gradient(5deg, rgb(200, 200, 200), rgb(170, 170, 170));
     line-height: 1.2;
     font-weight: bold;
   

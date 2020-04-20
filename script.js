@@ -283,9 +283,7 @@ function downloadPlayerKills(id){
     let csvPlayerContent = "data:text/csv;charset=utf-8,"
     
     for(var target in killedPlayers){
-        console.log(target);
         killedPlayers[target].forEach(element => {
-            console.log(element);
             csvPlayerContent += `${id} killed ${element.target} with ${element.gun}.\n`
         });
     }
