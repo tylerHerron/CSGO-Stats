@@ -67,7 +67,8 @@ function runFiles(){
         var time = element[3];
         var player = element[4];
         var trigger = element[5];
-        var target = element[6];    
+        var target = element[6];
+        var gun = null;    
         var blindedTime = 0;
         var headshot = element.includes("(headshot)");
         var penetrated = element.includes("(penetrated)");
@@ -85,11 +86,15 @@ function runFiles(){
             target = " ";
         }
 
+        if(trigger == "killed"){
+            gun = element[8];
+        }
+
         if(element[7] == "flashbang"){
             flashIndex = element[9].replace(')', '');
         }
 
-        parsedList.push(new ServerEvent(date, time, player, trigger, target, blindedTime, headshot, penetrated, flashIndex));
+        parsedList.push(new ServerEvent(date, time, player, trigger, target, gun, blindedTime, headshot, penetrated, flashIndex));
     });
 
     // Sort the parsedList
@@ -269,6 +274,33 @@ function utilityRatio(player){
     player.utilityPurchased = purchased;
     player.utilityThrew     = threw;
     player.utilityRatio     = parseFloat((threw/purchased).toFixed(2));
+}
+
+function downloadPlayerKills(id){
+    killedPlayers = parsedList[id]["killed"];
+    let csvContent = "data:text/csv;charset=utf-8,"
+    
+    for(var target in killedPlayers){
+        console.log(target);
+        killedPlayers[target].forEach(element => {
+            console.log(element);
+            csvContent += `${id} killed ${element.target} with ${element.gun}.\n`
+        });
+        // for(var event in killedPlayers[target]){
+        //     csvContent += `${id} killed ${killedPlayers[target][event][target]} with ${killedPlayers[target][event][gun]},\n`;
+        // }
+    }
+
+    var encodedUri = encodeURI(csvContent);
+    window.open(encodedUri);
+}
+
+function downloadAll(){
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(parsedList));
+    var dlAnchorElem = document.getElementById('downloadAnchorElem');
+    dlAnchorElem.setAttribute("href",     dataStr     );
+    dlAnchorElem.setAttribute("download", "results.json");
+    dlAnchorElem.click();
 }
 
 UIController.createEventListeners();
