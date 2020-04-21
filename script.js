@@ -141,7 +141,6 @@ function runFiles(){
     for(var el in parsedList){
         var header = [el,'Qty','Total'];
         createReportTable(header, parsedList[el], el);
-        //console.log(JSON.stringify(playerTables, null, 2));
         var playerLink = $(
             `<div class="col span_2_of_2">
                 <div class="run-button">
@@ -257,34 +256,19 @@ function groupBy(arr, property) {
 }
 
 function playerClick(id){
+    let clickedTeam = parsedList[id].team;
 
-    // Get tables that exist
-    var existingTables = document.getElementsByClassName("report-table");
+    let existingTables = document.getElementById(`table-team-${clickedTeam}`);
     
-    if (existingTables.length != 0){
-        //Go through all tables
-        l = existingTables.length;
-        for(var x = 0; x < l; x++){
-            var player = existingTables[x].id.split("-")[0];
-
-            if(parsedList[player].team == parsedList[id].team){
-                // Remove previous of team
-                // Add current
-                if(id == player){
-                    removePlayerTables(parsedList[player].team, 400);                    
-                } else {
-                    removePlayerTables(parsedList[player].team, 400);
-                    showPlayerTable(player);
-                }
-                console.log("1");
-            } else {
-                if(id == player){
-                    removePlayerTables(parsedList[player].team, 400);
-                } else {
-                    showPlayerTable(id);
-                }
-                console.log("2");
-            }
+    if (existingTables.childElementCount == 1){
+        var player = existingTables.lastChild.id.split("-")[0];
+        if(player == id){
+            removePlayerTables(clickedTeam, 400);
+        } else {
+            removePlayerTables(clickedTeam, 400);
+            setTimeout(function(){
+                showPlayerTable(id);
+            }, 400);
         }
     } else {
         showPlayerTable(id);

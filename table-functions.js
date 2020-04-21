@@ -110,7 +110,6 @@ function createReportTable(header, player, id) {
 
     playerTables[id] = document.getElementById(`${id}-table`);
     
-    console.log(JSON.stringify(playerTables, null, 2));
     playerTables[id].parentNode.removeChild(playerTables[id]);
 }
 
