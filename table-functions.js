@@ -46,7 +46,7 @@ function downloadTableAsExcel(tableID) {
 
 function createReportTable(header, player, id) {
     let total = 0;
-    var table = $(`<table class='report-table fade-in'></table>`);
+    var table = $(`<table class='report-table'></table>`);
     table.attr('id', `${id}-table`);
     table.appendTo('#tables');
 
@@ -109,6 +109,8 @@ function createReportTable(header, player, id) {
     }
 
     playerTables[id] = document.getElementById(`${id}-table`);
+    
+    console.log(JSON.stringify(playerTables, null, 2));
     playerTables[id].parentNode.removeChild(playerTables[id]);
 }
 
