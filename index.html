@@ -8,7 +8,7 @@
 
     <body>
         <a id="downloadAnchorElem" style="display:none"></a>
-        <div class="section group main-screen" id="to-hide">
+        <div class="section group main-screen main-style" id="to-hide">
 
             <div class="col span_2_of_2 header">
                     <div>
@@ -35,21 +35,37 @@
             </div>
         </div>
 
-        <div id="bg"></div>
+        <div class="section group" id="download-btns">
 
-        <div class="section group dnld" id="download-btns">
-
-            <div class="col span_1_of_2 col3">
+            <div class="section group header">
                 <div class="report-name">Match Stats</div>
             </div>
 
-            <div class="section group dnld" id="players">
-
+            <div class="section group teamHeader">
+                <div class="col span_1_of_2">Team 1</div>
+                <div class="col span_1_of_2">Team 2</div>
             </div>
-            <div class="tables span_1_of_2" id="tables">
 
+            <div class="section group dnld" id="players">
+                <div class="col span_1_of_2" id="team-1">
+
+                </div>
+                <div class="col span_1_of_2" id="team-2">
+                    
+                </div>
+            </div>
+
+            <div class="section group tables span_2_of_2" id="tables">
+                <div class="col span_1_of_2" id="table-team-1">
+
+                </div>
+                <div class="col span_1_of_2" id="table-team-2">
+                    
+                </div>    
             </div>
         </div>
+
+        <div id="bg"></div>
     </body>
 
     <script src="jquery-3.4.1.js"></script>

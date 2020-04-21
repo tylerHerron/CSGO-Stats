@@ -1,5 +1,6 @@
 * {
     font-family: monospace;
+    margin: 0px;
 }
 
 #report-upload, #master-upload {
@@ -43,17 +44,33 @@
     text-shadow: 1px 1px 3px rgba(41, 41, 41, 0.25);
 }
 
+.teamHeader {
+    padding: 20px auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(41, 41, 41, 0.25);
+}
+
 .main-screen {
     position: relative;
     top: -800px;
     animation: drop 1s .5s ease forwards;
 }
 
+.main-style {    
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5% 20%;
+}
+
 .report-name {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: bold;
-    height: 100px;
     word-wrap: break-word;
+    padding: 20px;
 }
 
 label {
@@ -75,7 +92,7 @@ label {
 
 .anim-out {
     position: absolute;
-    animation: out 1s ease forwards;
+    animation: out .7s ease-in forwards;
 }
 
 #download-btns{
@@ -89,7 +106,7 @@ label {
 
 .anim-in {
     position: absolute;
-    animation: dnld-in 1s .5s ease forwards;
+    animation: dnld-in 1s ease forwards;
 }
 
 .name-input {
@@ -120,7 +137,6 @@ label {
 }
 
 .run-button{
-    margin: 1%;
     text-align: center;
     color: #6d6d6d;
 }
@@ -139,9 +155,7 @@ label {
 .section {
 	clear: both;
 	padding: 0px;
-    margin: 5% 20%;
-    background: linear-gradient(to bottom, #ffffff, #f8f8f8);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .dnld { 
@@ -249,6 +263,7 @@ label {
     border-spacing:0;
     border-color:#ccc;
     opacity: 0;
+    transition: all .4s ease-in-out;
 }
 
 .report-table td {

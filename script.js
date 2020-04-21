@@ -10,7 +10,8 @@ let masterList = [];
 let parsedList = [];
 let parseOriginal = [];
 let playerTables = {};
-let currentPlayer = null;
+let player = null;
+let curPlrTeam2 = null;
 
 let prices = {
 "ak47":2700,
@@ -136,27 +137,32 @@ function runFiles(){
         }
     }
 
-    // Make HTML Tables
+    // Make HTML Tables and buttons
     for(var el in parsedList){
         var header = [el,'Qty','Total'];
         createReportTable(header, parsedList[el], el);
         var playerLink = $(
-            `<div class="col span_1_of_2">
+            `<div class="col span_2_of_2">
                 <div class="run-button">
-                    <label class="button run-btn" for="${el}">${el}</label><br>
+                    <label class="button" for="${el}">${el}</label>
                     <button type="submit" id="${el}"></button>
                 </div>
             </div>`);
-        playerLink.appendTo('#players');
+        playerLink.appendTo(`#team-${parsedList[el].team}`);
         $(`#${el}`).addClass('input');
         UIController.createPlayerListeners(el);
         x++;
     }
+    
 
     // Show the player screen
-    $('#to-hide').removeClass('main-screen');
+    
     $('#to-hide').addClass('anim-out');
-    $('#download-btns').addClass('anim-in');
+    $('#to-hide').removeClass('main-screen');
+
+    setTimeout(function(){
+        $('#download-btns').addClass('anim-in');
+    },500);
 }
 
 function handleFileSelect(files, id) {
@@ -250,13 +256,43 @@ function groupBy(arr, property) {
 }
 
 function playerClick(id){
-    currentPlayer = id;
-    var p = document.getElementById('tables');
-    for(var element in playerTables){
-        if(p.contains(playerTables[element])) p.removeChild(playerTables[element]);
+    let clickedTeam = parsedList[id].team;
+
+    let existingTables = document.getElementById(`table-team-${clickedTeam}`);
+    
+    if (existingTables.childElementCount == 1){
+        var player = existingTables.lastChild.id.split("-")[0];
+        if(player == id){
+            removePlayerTables(clickedTeam, 400);
+        } else {
+            removePlayerTables(clickedTeam, 400);
+            setTimeout(function(){
+                showPlayerTable(id);
+            }, 400);
+        }
+    } else {
+        showPlayerTable(id);
     }
-    p.appendChild(playerTables[id]);
 }
+
+function removePlayerTables(team, dur){
+    var p = document.getElementById(`table-team-${team}`);
+    for(var element in playerTables){
+        if(parsedList[element].team == team) $(`#${element}-table`).css('opacity', 0);
+    }
+    setTimeout(function(){
+        p.innerHTML = '';
+    }, dur);
+}
+
+function showPlayerTable(id){
+    var p = document.getElementById(`table-team-${parsedList[id].team}`);
+    p.appendChild(playerTables[id]);
+    setTimeout(function(){
+        $(`#${id}-table`).css('opacity', 1);
+    },25);
+}
+
 
 function utilityRatio(player){
     var purchased = 0;
