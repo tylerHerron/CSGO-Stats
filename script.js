@@ -184,39 +184,52 @@ function handleFileSelect(files, id) {
 function readFileToMaster(file){
     masterList = [];
     let fileArray = file.split('\n'); // Create an array for every line in file
+    var begin, end = false;
 
     fileArray.forEach((el) => {
+        if(el.includes("say") || el.includes("say_team")){ return; }
 
-        //Take out first instance of coords
-        var fixedEl = el.replace(
-            el.slice(el.indexOf('['), el.indexOf(']')+2)
-            ,'');
+        if(el.includes("warmup_end")){
+            begin = true;
+        }
 
-        //Take out second instance of coords
-        fixedEl = fixedEl.replace(
-            fixedEl.slice(fixedEl.indexOf('['), fixedEl.indexOf(']')+2)
-            ,'');
+        if(el.includes("ACCOLADE")){
+            end = true;
+        }
 
-        //Fix some formatting things.
-        fixedEl = fixedEl.replace("other ",'');
-        fixedEl = fixedEl.replace("blinded for", "blinded_for");
-        fixedEl = fixedEl.replace("assisted killing", "assisted_killing");
-        fixedEl = fixedEl.replace("was killed by the bomb.", "blew_up");
+        
+        if(begin && !end){   
+            //Take out first instance of coords     
+            var fixedEl = el.replace(
+                el.slice(el.indexOf('['), el.indexOf(']')+2)
+                ,'');
 
-        var myRegexp = /[^\s"]+|"([^"]*)"/gi;
-        var myArray = [];
+            //Take out second instance of coords
+            fixedEl = fixedEl.replace(
+                fixedEl.slice(fixedEl.indexOf('['), fixedEl.indexOf(']')+2)
+                ,'');
 
-        do {
-            //Each call to exec returns the next regex match as an array
-            var match = myRegexp.exec(fixedEl);
-            if (match != null)
-            {
-                //Index 1 in the array is the captured group if it exists
-                //Index 0 is the matched text, which we use if no captured group exists
-                myArray.push(match[1] ? match[1] : match[0]);
-            }
-        } while (match != null);
-        if(myArray[4].includes("<CT>") || myArray[4].includes("<TERRORIST>")) masterList.push(myArray);
+            //Fix some formatting things.
+            fixedEl = fixedEl.replace("other ",'');
+            fixedEl = fixedEl.replace("blinded for", "blinded_for");
+            fixedEl = fixedEl.replace("assisted killing", "assisted_killing");
+            fixedEl = fixedEl.replace("was killed by the bomb.", "blew_up");
+
+            var myRegexp = /[^\s"]+|"([^"]*)"/gi;
+            var myArray = [];
+
+            do {
+                //Each call to exec returns the next regex match as an array
+                var match = myRegexp.exec(fixedEl);
+                if (match != null)
+                {
+                    //Index 1 in the array is the captured group if it exists
+                    //Index 0 is the matched text, which we use if no captured group exists
+                    myArray.push(match[1] ? match[1] : match[0]);
+                }
+            } while (match != null);
+            if(myArray[4].includes("<CT>") || myArray[4].includes("<TERRORIST>")) masterList.push(myArray);
+        }
     });
 }
 
