@@ -75,6 +75,11 @@ function createReportTable(header, player, id) {
     addCell('', row);
     addCell(parsedList[id].utilityRatio, row);
 
+    row = table.insertRow();
+    addCell('Flash ratio', row);
+    addCell('', row);
+    addCell(parsedList[id].flashRatio, row);
+
     for(var trigger in player){
         for(var target in player[trigger]){
             if(!trigger.includes("say")){

@@ -124,10 +124,6 @@ function runFiles(){
         }
         parsedList[el].totalSpent = totalSpent;
 
-        // Calculate utility info
-        utilityRatio(parsedList[el]);
-        //flashRatio(parsedList[el]);
-
         // Determine Teams
         for(var e in masterList){
             parsedList[el].team = 1;
@@ -136,6 +132,12 @@ function runFiles(){
                 break;
             }
         }
+    }
+
+    // Calculate utility info
+    for(var el in parsedList){
+        utilityRatio(parsedList[el]);
+        flashRatio(el);
     }
 
     // Make HTML Tables and buttons
@@ -333,6 +335,23 @@ function utilityRatio(player){
     player.utilityPurchased = purchased;
     player.utilityThrew     = threw;
     player.utilityRatio     = parseFloat((threw/purchased).toFixed(2));
+}
+
+function flashRatio(player){
+    let totalFlashTime = 0;
+    let flashRatio = 0;
+
+    for(let target in parsedList[player]["blinded"]){
+        for(let event in parsedList[player]["blinded"][target]){
+            if(parsedList[player].team != parsedList[target].team){
+                totalFlashTime += parsedList[player]["blinded"][target][event].blindedTime;
+            }
+        }
+    }
+
+    flashRatio = totalFlashTime/(parsedList[player]["threw"]["flashbang"].length*4.87);
+    parsedList[player].flashRatio = parseFloat(flashRatio.toFixed(2));
+    parsedList[player].totalFlashTime = totalFlashTime;
 }
 
 function downloadPlayerKills(id){
