@@ -45,12 +45,13 @@ function downloadTableAsExcel(tableID) {
 }
 
 function createReportTable(header, player, id) {
+    var tableID = id.replace(/\s+/g, '_');
     let total = 0;
     var table = $(`<table class='report-table'></table>`);
-    table.attr('id', `${id}-table`);
+    table.attr('id', `${tableID}-table`);
     table.appendTo('#tables');
 
-    table = $(`#${id}-table`).get()[0];
+    table = document.getElementById(`${tableID}-table`);
 
     //Insert Total Spent
     let row = table.insertRow();
@@ -108,7 +109,7 @@ function createReportTable(header, player, id) {
         row.appendChild(th);
     }
 
-    playerTables[id] = document.getElementById(`${id}-table`);
+    playerTables[id] = document.getElementById(`${tableID}-table`);
     
     playerTables[id].parentNode.removeChild(playerTables[id]);
 }

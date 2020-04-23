@@ -126,6 +126,7 @@ function runFiles(){
 
         // Calculate utility info
         utilityRatio(parsedList[el]);
+        //flashRatio(parsedList[el]);
 
         // Determine Teams
         for(var e in masterList){
@@ -139,17 +140,17 @@ function runFiles(){
 
     // Make HTML Tables and buttons
     for(var el in parsedList){
+        var tableID = el.replace(/\s+/g, '_');
         var header = [el,'Qty','Total'];
         createReportTable(header, parsedList[el], el);
         var playerLink = $(
             `<div class="col span_2_of_2">
                 <div class="run-button">
-                    <label class="button" for="${el}">${el}</label>
-                    <button type="submit" id="${el}"></button>
+                    <label class="button" for="${tableID}">${el}</label>
+                    <button type="submit" id="${tableID}" class="input"></button>
                 </div>
             </div>`);
         playerLink.appendTo(`#team-${parsedList[el].team}`);
-        $(`#${el}`).addClass('input');
         UIController.createPlayerListeners(el);
         x++;
     }
@@ -185,6 +186,7 @@ function readFileToMaster(file){
     let fileArray = file.split('\n'); // Create an array for every line in file
 
     fileArray.forEach((el) => {
+
         //Take out first instance of coords
         var fixedEl = el.replace(
             el.slice(el.indexOf('['), el.indexOf(']')+2)
@@ -262,6 +264,7 @@ function playerClick(id){
     
     if (existingTables.childElementCount == 1){
         var player = existingTables.lastChild.id.split("-")[0];
+        player = player.replace(/_+/g, " ");
         if(player == id){
             removePlayerTables(clickedTeam, 400);
         } else {
@@ -278,7 +281,12 @@ function playerClick(id){
 function removePlayerTables(team, dur){
     var p = document.getElementById(`table-team-${team}`);
     for(var element in playerTables){
-        if(parsedList[element].team == team) $(`#${element}-table`).css('opacity', 0);
+        var tableID = element.replace(/\s+/g, "_");
+        if(parsedList[element].team == team) {
+            if(document.getElementById(`${tableID}-table`) != null){
+                document.getElementById(`${tableID}-table`).style.opacity = 0; 
+            }
+        }
     }
     setTimeout(function(){
         p.innerHTML = '';
@@ -286,13 +294,13 @@ function removePlayerTables(team, dur){
 }
 
 function showPlayerTable(id){
+    var tableID = id.replace(/\s+/g, '_');
     var p = document.getElementById(`table-team-${parsedList[id].team}`);
     p.appendChild(playerTables[id]);
     setTimeout(function(){
-        $(`#${id}-table`).css('opacity', 1);
+        document.getElementById(`${tableID}-table`).style.opacity = 1;
     },25);
 }
-
 
 function utilityRatio(player){
     var purchased = 0;
