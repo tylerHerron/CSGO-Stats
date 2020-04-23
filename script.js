@@ -12,52 +12,188 @@ let parseOriginal = [];
 let playerTables = {};
 let player = null;
 let curPlrTeam2 = null;
+var weaponTypes = ["rifle","smg","heavy","pistol","utility","item"];
+var items = {
+    "ak47":{
+        price: 2700,
+        type: "rifle"
+    },
+    "aug":{
+        price: 3300,
+        type: "rifle"
+    },
+    "famas":{
+        price: 2050,
+        type: "rifle"
+    },
+    "galilar":{
+        price: 1800,
+        type: "rifle"
+    },
+    "m4a1":{
+        price: 3100,
+        type: "rifle"
+    },
+    "m4a1_silencer":{
+        price: 2900,
+        type: "rifle"
+    },
+    "sg556":{
+        price: 3000,
+        type: "rifle"
+    },
+    "awp":{
+        price: 4750,
+        type: "rifle"
+    },
+    "gs3sg1":{
+        price: 5000,
+        type: "rifle"
+    },
+    "scar20":{
+        price: 5000,
+        type: "rifle"
+    },
+    "ssg08":{
+        price: 1700,
+        type: "rifle"
+    },
 
-let prices = {
-"ak47":2700,
-"aug":3300,
-"famas":2050,
-"galilar":1800,
-"m4a1":3100,
-"m4a1_silencer":2900,
-"sg556":3000,
-"awp":4750,
-"gs3sg1":5000,
-"scar20":5000,
-"ssg08":1700,
-"bizon":1400,
-"mac10":1050,
-"mp5sd":1500,
-"mp7":1500,
-"mp9":1250,
-"p90":2350,
-"ump45":1200,
-"m249":5200,
-"mag7":1300,
-"negev":1700,
-"nova":1050,
-"sawedoff":1100,
-"xm1014":2000,
-"cz75a":0500,
-"deagle":0700,
-"elite":0400,
-"fiveseven":0500,
-"glock":0000,
-"hkp2000":0000,
-"p250":0300,
-"revolver":0800,
-"tec9":0500,
-"usp_silencer":0000,
-"hegrenade":0300,
-"molotov":0400,
-"incgrenade":0600,
-"flashbang":0200,
-"smokegrenade":0300,
-"item_kevlar":0600,
-"item_assaultsuit":1000,
-"item_defuser":0400,
-"taser":0400,
-"decoy":0050
+    "bizon":{
+        price: 1400,
+        type: "smg"
+    },
+    "mac10":{
+        price: 1050,
+        type: "smg"
+    },
+    "mp5sd":{
+        price: 1500,
+        type: "smg"
+    },
+    "mp7":{
+        price: 1500,
+        type: "smg"
+    },
+    "mp9":{
+        price: 1250,
+        type: "smg"
+    },
+    "p90":{
+        price: 2350,
+        type: "smg"
+    },
+    "ump45":{
+        price: 1200,
+        type: "smg"
+    },
+    "m249":{
+        price: 5200,
+        type: "heavy"
+    },
+    "mag7":{
+        price: 1300,
+        type: "heavy"
+    },
+    "negev":{
+        price: 1700,
+        type: "heavy"
+    },
+    "nova":{
+        price: 1050,
+        type: "heavy"
+    },
+    "sawedoff":{
+        price: 1100,
+        type: "heavy"
+    },
+    "xm1014":{
+        price: 2000,
+        type: "heavy"
+    },
+    "cz75a":{
+        price: 0500,
+        type: "pistol"
+    },
+    "deagle":{
+        price: 0700,
+        type: "pistol"
+    },
+    "elite":{
+        price: 0400,
+        type: "pistol"
+    },
+    "fiveseven":{
+        price: 0500,
+        type: "pistol"
+    },
+    "glock":{
+        price: 0000,
+        type: "pistol"
+    },
+    "hkp2000":{
+        price: 0000,
+        type: "pistol"
+    },
+    "p250":{
+        price: 0300,
+        type: "pistol"
+    },
+    "revolver":{
+        price: 0800,
+        type: "pistol"
+    },
+    "tec9":{
+        price: 0500,
+        type: "pistol"
+    },
+    "usp_silencer":{
+        price: 0000,
+        type: "pistol"
+    },
+    "hegrenade":{
+        price: 0300,
+        type: "utility"
+    },
+    "molotov":{
+        price: 0400,
+        type: "utility"
+    },
+    "incgrenade":{
+        price: 0600,
+        type: "utility"
+    },
+    "flashbang":{
+        price: 0200,
+        type: "utility"
+    },
+    "smokegrenade":{
+        price: 0300,
+        type: "utility"
+    },
+    "taser":{
+        price: 0400,
+        type: "utility"
+    },
+    "decoy":{
+        price: 0050,
+        type: "utility"
+    },
+    "item_kevlar":{
+        price: 0600,
+        type: "item"
+    },
+    "item_assaultsuit":{
+        price: 1000,
+        type: "item"
+    },
+    "item_defuser":{
+        price: 0400,
+        type: "item"
+    },
+    "inferno":{
+        type: "utility"
+    }
 };
 
 function runFiles(){
@@ -120,7 +256,7 @@ function runFiles(){
         // Calculate totalSpent
         var totalSpent = 0;
         for(var item in parsedList[el]['purchased']){
-            totalSpent += parsedList[el]['purchased'][item].length*prices[item];
+            totalSpent += parsedList[el]['purchased'][item].length*items[item].price;
         }
         parsedList[el].totalSpent = totalSpent;
 
