@@ -80,6 +80,16 @@ function createReportTable(header, player, id) {
     addCell('', row);
     addCell(parsedList[id].flashRatio, row);
 
+    row = table.insertRow();
+    addCell('Team Flashes', row);
+    addCell('', row);
+    addCell(parsedList[id].teamFlashes, row);
+
+    row = table.insertRow();
+    addCell('Enemy Flashes', row);
+    addCell('', row);
+    addCell(parsedList[id].enemyFlashes, row);
+
     for(var trigger in player){
         for(var target in player[trigger]){
             if(!trigger.includes("say")){
