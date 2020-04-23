@@ -53,42 +53,55 @@ function createReportTable(header, player, id) {
 
     table = document.getElementById(`${tableID}-table`);
 
-    //Insert Total Spent
-    let row = table.insertRow();
-    addCell(`Total spent`, row);
-    addCell('', row);
-    addCell(currencyFormat(parsedList[id].totalSpent), row);
+    //Calculate KDA
+    let kills = 0;
+    let deaths = 0;
+    let assists = 0;
 
-    //Utility Stats
-    row = table.insertRow();
-    addCell('Utility purchased', row);
-    addCell('', row);
-    addCell(parsedList[id].utilityPurchased, row);
+    for(var target in player["killed"]){
+        kills += player["killed"][target].length;
+    }
 
-    row = table.insertRow();
-    addCell('Utility thrown', row);
-    addCell('', row);
-    addCell(parsedList[id].utilityThrew, row);
+    for(var target in player["assisted_killing"]){
+        assists += player["assisted_killing"][target].length;
+    }
 
-    row = table.insertRow();
-    addCell('Utility ratio', row);
-    addCell('', row);
-    addCell(parsedList[id].utilityRatio, row);
+    for(var el in parsedList){
+        if(parsedList[el]["killed"][id] != undefined){
+            deaths += parsedList[el]["killed"][id].length;
+        }
+    }
 
-    row = table.insertRow();
-    addCell('Flash ratio', row);
-    addCell('', row);
-    addCell(parsedList[id].flashRatio, row);
+    //Insert Manual Rows
+    addManual('Total spent', currencyFormat(parsedList[id].totalSpent), table);
+    addManual(`Kills`, kills, table);
+    addManual(`Assists`, assists, table);
+    addManual(`Deaths`, deaths, table);
+    addManual('Utility purchased', parsedList[id].utilityPurchased, table);
+    addManual('Utility thrown', parsedList[id].utilityThrew, table);
+    addManual('Utility ratio', parsedList[id].utilityRatio, table);
+    addManual('Team Flashes', parsedList[id].teamFlashes, table);
+    addManual('Enemy Flashes', parsedList[id].enemyFlashes, table);
+    
+    weaponTypes.forEach(element => {
+        let typeKills = 0;
 
-    row = table.insertRow();
-    addCell('Team Flashes', row);
-    addCell('', row);
-    addCell(parsedList[id].teamFlashes, row);
+        let gunType = element.charAt(0).toUpperCase() + element.slice(1);
+        if(element == 'smg') gunType = element.toUpperCase();
 
-    row = table.insertRow();
-    addCell('Enemy Flashes', row);
-    addCell('', row);
-    addCell(parsedList[id].enemyFlashes, row);
+        if(element != "item"){
+            for(var target in player["killed"]){
+                player["killed"][target].forEach(event => {
+                    let gun = event.gun;
+                    if(items[gun].type == element){
+                        typeKills++;
+                    }
+                });
+            }
+
+            addManual(`${gunType} kills`, typeKills, table);
+        }
+    });
 
     for(var trigger in player){
         for(var target in player[trigger]){
@@ -133,6 +146,13 @@ function addCell(input, row){
     let cell = row.insertCell();
     let text = document.createTextNode(input);
     cell.appendChild(text);
+}
+
+function addManual(input1, input2, table){
+    let row = table.insertRow();
+    addCell(input1, row);
+    addCell('', row);
+    addCell(input2, row);
 }
 
 function currencyFormat(num) {
