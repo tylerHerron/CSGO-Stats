@@ -340,11 +340,16 @@ function utilityRatio(player){
 function flashRatio(player){
     let totalFlashTime = 0;
     let flashRatio = 0;
+    let enemyFlashes = 0;
+    let teamFlashes = 0;
 
     for(let target in parsedList[player]["blinded"]){
         for(let event in parsedList[player]["blinded"][target]){
             if(parsedList[player].team != parsedList[target].team){
                 totalFlashTime += parsedList[player]["blinded"][target][event].blindedTime;
+                enemyFlashes++;
+            } else {
+                teamFlashes++;
             }
         }
     }
@@ -352,6 +357,8 @@ function flashRatio(player){
     flashRatio = totalFlashTime/(parsedList[player]["threw"]["flashbang"].length*4.87);
     parsedList[player].flashRatio = parseFloat(flashRatio.toFixed(2));
     parsedList[player].totalFlashTime = totalFlashTime;
+    parsedList[player].enemyFlashes = enemyFlashes;
+    parsedList[player].teamFlashes = teamFlashes;
 }
 
 function downloadPlayerKills(id){
