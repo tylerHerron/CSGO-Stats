@@ -52,8 +52,9 @@ var UIController = (function (){
         },
 
         createPlayerListeners: function(id) {
+            var tableID = id.replace(/\s+/g, '_');
 
-            let playerArea  = document.getElementById(id);
+            let playerArea  = document.getElementById(tableID);
 
             ['dragenter', 'dragover'].forEach(eventName => {
                 playerArea.addEventListener(eventName, e => {playerArea.classList.add('highlight');}, false);
