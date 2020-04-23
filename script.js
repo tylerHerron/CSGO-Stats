@@ -126,7 +126,7 @@ function runFiles(){
 
         // Calculate utility info
         utilityRatio(parsedList[el]);
-        flashRatio(parsedList[el]);
+        //flashRatio(parsedList[el]);
 
         // Determine Teams
         for(var e in masterList){
@@ -320,23 +320,6 @@ function utilityRatio(player){
     player.utilityPurchased = purchased;
     player.utilityThrew     = threw;
     player.utilityRatio     = parseFloat((threw/purchased).toFixed(2));
-}
-
-function flashRatio(player){
-    let totalFlashTime = 0;
-    let flashRatio = 0;
-
-    for(var target in player["blinded"]){
-        if(parsedList[target].team != player.team){
-            for(var event in player["blinded"][target]){
-                totalFlashTime += player["blinded"][target][event].blindedTime;
-            }
-        }
-    }
-
-    flashRatio = totalFlashTime/(player["threw"]["flashbang"].length*4.87);
-    player.flashRatio = parseFloat(flashRatio.toFixed(2));
-    player.totalFlashTime = totalFlashTime;
 }
 
 function downloadPlayerKills(id){
