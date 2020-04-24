@@ -73,15 +73,15 @@ function createReportTable(header, player, id) {
     }
 
     //Insert Manual Rows
-    addManual('Total spent', currencyFormat(parsedList[id].totalSpent), table);
-    addManual(`Kills`, kills, table);
-    addManual(`Assists`, assists, table);
-    addManual(`Deaths`, deaths, table);
-    addManual('Utility purchased', parsedList[id].utilityPurchased, table);
-    addManual('Utility thrown', parsedList[id].utilityThrew, table);
-    addManual('Utility ratio', parsedList[id].utilityRatio, table);
-    addManual('Team Flashes', parsedList[id].teamFlashes, table);
-    addManual('Enemy Flashes', parsedList[id].enemyFlashes, table);
+    addManual('Total spent', '', currencyFormat(parsedList[id].totalSpent), table);
+    addManual(`Kills`, kills,'', table);
+    addManual(`Assists`, assists,'', table);
+    addManual(`Deaths`, deaths,'', table);
+    addManual('Utility purchased', parsedList[id].utilityPurchased,'', table);
+    addManual('Utility thrown', parsedList[id].utilityThrew,'', table);
+    addManual('Utility ratio','', parsedList[id].utilityRatio, table);
+    addManual('Team Flashes', parsedList[id].teamFlashes,'', table);
+    addManual('Enemy Flashes', parsedList[id].enemyFlashes,'', table);
     
     weaponTypes.forEach(element => {
         let typeKills = 0;
@@ -99,7 +99,7 @@ function createReportTable(header, player, id) {
                 });
             }
 
-            addManual(`${gunType} kills`, typeKills, table);
+            addManual(`${gunType} kills`, typeKills,'', table);
         }
     });
 
@@ -148,11 +148,11 @@ function addCell(input, row){
     cell.appendChild(text);
 }
 
-function addManual(input1, input2, table){
+function addManual(input1, input2, input3, table){
     let row = table.insertRow();
     addCell(input1, row);
-    addCell('', row);
     addCell(input2, row);
+    addCell(input3, row);
 }
 
 function currencyFormat(num) {

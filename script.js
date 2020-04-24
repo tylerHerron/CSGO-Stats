@@ -1,5 +1,5 @@
 // CSGO Server Log Parser
-// Version 1.o
+// Version 1.0
 //
 // Author: Tyler Herron
 //
@@ -12,6 +12,7 @@ let parseOriginal = [];
 let playerTables = {};
 let player = null;
 let curPlrTeam2 = null;
+var round = 0;
 var weaponTypes = ["rifle","smg","heavy","pistol","utility","item"];
 var items = {
     "ak47":{
@@ -212,6 +213,10 @@ function runFiles(){
         var penetrated = element.includes("(penetrated)");
         var flashIndex = null;
 
+        if(target == "Round_Start"){
+            round++;
+        }
+
         if(trigger == "blinded_for"){
             blindedTime = element[6];
             target = element[4];
@@ -232,7 +237,9 @@ function runFiles(){
             flashIndex = element[9].replace(')', '');
         }
 
-        parsedList.push(new ServerEvent(date, time, player, trigger, target, gun, blindedTime, headshot, penetrated, flashIndex));
+        if(player != "World"){
+            parsedList.push(new ServerEvent(date, time, player, trigger, target, gun, blindedTime, headshot, penetrated, flashIndex, round));
+        }
     });
 
     // Sort the parsedList
@@ -272,7 +279,7 @@ function runFiles(){
 
     // Calculate utility info
     for(var el in parsedList){
-        utilityRatio(parsedList[el]);
+        utilityRatio(el);
         flashRatio(el);
     }
 
@@ -366,7 +373,7 @@ function readFileToMaster(file){
                     myArray.push(match[1] ? match[1] : match[0]);
                 }
             } while (match != null);
-            if(myArray[4].includes("<CT>") || myArray[4].includes("<TERRORIST>")) masterList.push(myArray);
+            if(myArray[4].includes("<CT>") || myArray[4].includes("<TERRORIST>") || myArray[4].includes("World")) masterList.push(myArray);
         }
     });
 }
@@ -453,7 +460,8 @@ function showPlayerTable(id){
     },25);
 }
 
-function utilityRatio(player){
+function utilityRatio(id){
+    player = parsedList[id];
     var purchased = 0;
     var threw = 0;
     if(player["purchased"]["hegrenade"] !== undefined) purchased +=    player["purchased"]["hegrenade"].length;
