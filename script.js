@@ -1,5 +1,5 @@
 // CSGO Server Log Parser
-// Version 1.o
+// Version 1.0
 //
 // Author: Tyler Herron
 //
@@ -12,7 +12,8 @@ let parseOriginal = [];
 let playerTables = {};
 let player = null;
 let curPlrTeam2 = null;
-var weaponTypes = ["rifle","smg","heavy","pistol","utility","item"];
+var round = 0;
+var weaponTypes = ["rifle","smg","heavy","pistol","utility","item", "melee"];
 var items = {
     "ak47":{
         price: 2700,
@@ -35,6 +36,10 @@ var items = {
         type: "rifle"
     },
     "m4a1_silencer":{
+        price: 2900,
+        type: "rifle"
+    },
+    "m4a1_silencer_off":{
         price: 2900,
         type: "rifle"
     },
@@ -193,6 +198,9 @@ var items = {
     },
     "inferno":{
         type: "utility"
+    },
+    "knife":{
+        type: "melee"
     }
 };
 
@@ -211,6 +219,10 @@ function runFiles(){
         var headshot = element.includes("(headshot)");
         var penetrated = element.includes("(penetrated)");
         var flashIndex = null;
+
+        if(target == "Round_Start"){
+            round++;
+        }
 
         if(trigger == "blinded_for"){
             blindedTime = element[6];
@@ -232,7 +244,9 @@ function runFiles(){
             flashIndex = element[9].replace(')', '');
         }
 
-        parsedList.push(new ServerEvent(date, time, player, trigger, target, gun, blindedTime, headshot, penetrated, flashIndex));
+        if(player != "World"){
+            parsedList.push(new ServerEvent(date, time, player, trigger, target, gun, blindedTime, headshot, penetrated, flashIndex, round));
+        }
     });
 
     // Sort the parsedList
@@ -272,7 +286,7 @@ function runFiles(){
 
     // Calculate utility info
     for(var el in parsedList){
-        utilityRatio(parsedList[el]);
+        utilityRatio(el);
         flashRatio(el);
     }
 
@@ -327,7 +341,7 @@ function readFileToMaster(file){
     fileArray.forEach((el) => {
         if(el.includes("say") || el.includes("say_team")){ return; }
 
-        if(el.includes("warmup_end")){
+        if(el.includes("exec qc_game")){
             begin = true;
         }
 
@@ -366,7 +380,7 @@ function readFileToMaster(file){
                     myArray.push(match[1] ? match[1] : match[0]);
                 }
             } while (match != null);
-            if(myArray[4].includes("<CT>") || myArray[4].includes("<TERRORIST>")) masterList.push(myArray);
+            if(myArray[4].includes("<CT>") || myArray[4].includes("<TERRORIST>") || myArray[4].includes("World")) masterList.push(myArray);
         }
     });
 }
@@ -453,7 +467,8 @@ function showPlayerTable(id){
     },25);
 }
 
-function utilityRatio(player){
+function utilityRatio(id){
+    player = parsedList[id];
     var purchased = 0;
     var threw = 0;
     if(player["purchased"]["hegrenade"] !== undefined) purchased +=    player["purchased"]["hegrenade"].length;
@@ -478,6 +493,7 @@ function flashRatio(player){
     let flashRatio = 0;
     let enemyFlashes = 0;
     let teamFlashes = 0;
+    let flashesThrown = 0;
 
     for(let target in parsedList[player]["blinded"]){
         for(let event in parsedList[player]["blinded"][target]){
@@ -490,7 +506,10 @@ function flashRatio(player){
         }
     }
 
-    flashRatio = totalFlashTime/(parsedList[player]["threw"]["flashbang"].length*4.87);
+    if(parsedList[player]["threw"]["flashbang"] != undefined){
+        flashesThrown = parsedList[player]["threw"]["flashbang"].length;
+    }
+    flashRatio = totalFlashTime/(flashesThrown*4.87);
     parsedList[player].flashRatio = parseFloat(flashRatio.toFixed(2));
     parsedList[player].totalFlashTime = totalFlashTime;
     parsedList[player].enemyFlashes = enemyFlashes;
