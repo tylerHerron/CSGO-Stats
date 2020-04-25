@@ -93,6 +93,7 @@ function createReportTable(header, player, id) {
             for(var target in player["killed"]){
                 player["killed"][target].forEach(event => {
                     let gun = event.gun;
+                    console.log(gun);
                     if(items[gun].type == element){
                         typeKills++;
                     }

@@ -13,7 +13,7 @@ let playerTables = {};
 let player = null;
 let curPlrTeam2 = null;
 var round = 0;
-var weaponTypes = ["rifle","smg","heavy","pistol","utility","item"];
+var weaponTypes = ["rifle","smg","heavy","pistol","utility","item", "melee"];
 var items = {
     "ak47":{
         price: 2700,
@@ -36,6 +36,10 @@ var items = {
         type: "rifle"
     },
     "m4a1_silencer":{
+        price: 2900,
+        type: "rifle"
+    },
+    "m4a1_silencer_off":{
         price: 2900,
         type: "rifle"
     },
@@ -194,6 +198,9 @@ var items = {
     },
     "inferno":{
         type: "utility"
+    },
+    "knife":{
+        type: "melee"
     }
 };
 
@@ -334,7 +341,7 @@ function readFileToMaster(file){
     fileArray.forEach((el) => {
         if(el.includes("say") || el.includes("say_team")){ return; }
 
-        if(el.includes("warmup_end")){
+        if(el.includes("exec qc_game")){
             begin = true;
         }
 
@@ -486,6 +493,7 @@ function flashRatio(player){
     let flashRatio = 0;
     let enemyFlashes = 0;
     let teamFlashes = 0;
+    let flashesThrown = 0;
 
     for(let target in parsedList[player]["blinded"]){
         for(let event in parsedList[player]["blinded"][target]){
@@ -498,7 +506,10 @@ function flashRatio(player){
         }
     }
 
-    flashRatio = totalFlashTime/(parsedList[player]["threw"]["flashbang"].length*4.87);
+    if(parsedList[player]["threw"]["flashbang"] != undefined){
+        flashesThrown = parsedList[player]["threw"]["flashbang"].length;
+    }
+    flashRatio = totalFlashTime/(flashesThrown*4.87);
     parsedList[player].flashRatio = parseFloat(flashRatio.toFixed(2));
     parsedList[player].totalFlashTime = totalFlashTime;
     parsedList[player].enemyFlashes = enemyFlashes;
