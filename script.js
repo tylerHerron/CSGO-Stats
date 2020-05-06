@@ -6,6 +6,7 @@
 // This program parses through the server logs for
 // a csgo match and tracks the stats for every player.
 
+let fileReader;
 let masterList = [];
 let parsedList = [];
 let parseOriginal = [];
@@ -51,7 +52,7 @@ var items = {
         price: 4750,
         type: "rifle"
     },
-    "gs3sg1":{
+    "g3sg1":{
         price: 5000,
         type: "rifle"
     },
@@ -201,6 +202,9 @@ var items = {
     },
     "knife":{
         type: "melee"
+    },
+    "knife_t":{
+        type: "melee"
     }
 };
 
@@ -293,7 +297,7 @@ function runFiles(){
     // Make HTML Tables and buttons
     for(var el in parsedList){
         var tableID = el.replace(/\s+/g, '_');
-        var header = [el,'Qty','Total'];
+        var header = [el,'Qty'];
         createReportTable(header, parsedList[el], el);
         var playerLink = $(
             `<div class="col span_2_of_2">
@@ -324,7 +328,9 @@ function handleFileSelect(files, id) {
         if(x < files.length+1){
             var reader = new FileReader();
             reader.readAsText(file);
+            //reader.readAsDataURL(file);
             reader.onload = function() {
+                fileReader = reader.result;
                 readFileToMaster(reader.result);
                 $('#master-text').text('Server file read into system.');
             }
@@ -336,7 +342,8 @@ function handleFileSelect(files, id) {
 function readFileToMaster(file){
     masterList = [];
     let fileArray = file.split('\n'); // Create an array for every line in file
-    var begin, end = false;
+    var begin = true;
+    var end = false;
 
     fileArray.forEach((el) => {
         if(el.includes("say") || el.includes("say_team")){ return; }
@@ -471,17 +478,22 @@ function utilityRatio(id){
     player = parsedList[id];
     var purchased = 0;
     var threw = 0;
-    if(player["purchased"]["hegrenade"] !== undefined) purchased +=    player["purchased"]["hegrenade"].length;
-    if(player["purchased"]["molotov"] !== undefined) purchased +=      player["purchased"]["molotov"].length;
-    if(player["purchased"]["incgrenade"] !== undefined) purchased +=   player["purchased"]["incgrenade"].length;
-    if(player["purchased"]["flashbang"] !== undefined) purchased +=    player["purchased"]["flashbang"].length;
-    if(player["purchased"]["smokegrenade"] !== undefined) purchased += player["purchased"]["smokegrenade"].length;
 
-    if(player["threw"]["hegrenade"] !== undefined) threw +=    player["threw"]["hegrenade"].length;
-    if(player["threw"]["molotov"] !== undefined) threw +=      player["threw"]["molotov"].length;
-    if(player["threw"]["incgrenade"] !== undefined) threw +=   player["threw"]["incgrenade"].length;
-    if(player["threw"]["flashbang"] !== undefined) threw +=    player["threw"]["flashbang"].length;
-    if(player["threw"]["smokegrenade"] !== undefined) threw += player["threw"]["smokegrenade"].length;
+    if(typeof player["purchased" !== "undefined"]){
+        if(typeof player["purchased"]["hegrenade"] !== "undefined") purchased +=    player["purchased"]["hegrenade"].length;
+        if(typeof player["purchased"]["molotov"] !== "undefined") purchased +=      player["purchased"]["molotov"].length;
+        if(typeof player["purchased"]["incgrenade"] !== "undefined") purchased +=   player["purchased"]["incgrenade"].length;
+        if(typeof player["purchased"]["flashbang"] !== "undefined") purchased +=    player["purchased"]["flashbang"].length;
+        if(typeof player["purchased"]["smokegrenade"] !== "undefined") purchased += player["purchased"]["smokegrenade"].length;
+    }
+
+    if(typeof player["threw"] !== "undefined"){
+        if(typeof player["threw"]["hegrenade"] !== "undefined") threw +=    player["threw"]["hegrenade"].length;
+        if(typeof player["threw"]["molotov"] !== "undefined") threw +=      player["threw"]["molotov"].length;
+        if(typeof player["threw"]["incgrenade"] !== "undefined") threw +=   player["threw"]["incgrenade"].length;
+        if(typeof player["threw"]["flashbang"] !== "undefined") threw +=    player["threw"]["flashbang"].length;
+        if(typeof player["threw"]["smokegrenade"] !== "undefined") threw += player["threw"]["smokegrenade"].length;
+    }
     
     player.utilityPurchased = purchased;
     player.utilityThrew     = threw;
@@ -495,20 +507,25 @@ function flashRatio(player){
     let teamFlashes = 0;
     let flashesThrown = 0;
 
-    for(let target in parsedList[player]["blinded"]){
-        for(let event in parsedList[player]["blinded"][target]){
-            if(parsedList[player].team != parsedList[target].team){
-                totalFlashTime += parsedList[player]["blinded"][target][event].blindedTime;
-                enemyFlashes++;
-            } else {
-                teamFlashes++;
+    if(typeof parsedList[player]["blinded"] !== "undefined"){
+        for(let target in parsedList[player]["blinded"]){
+            for(let event in parsedList[player]["blinded"][target]){
+                if(parsedList[player].team != parsedList[target].team){
+                    totalFlashTime += parsedList[player]["blinded"][target][event].blindedTime;
+                    enemyFlashes++;
+                } else {
+                    teamFlashes++;
+                }
             }
         }
     }
 
-    if(parsedList[player]["threw"]["flashbang"] != undefined){
-        flashesThrown = parsedList[player]["threw"]["flashbang"].length;
+    if(typeof parsedList[player]["threw"] !== "undefined"){
+        if(typeof parsedList[player]["threw"]["flashbang"] !== "undefined"){
+            flashesThrown = parsedList[player]["threw"]["flashbang"].length;
+        }
     }
+
     flashRatio = totalFlashTime/(flashesThrown*4.87);
     parsedList[player].flashRatio = parseFloat(flashRatio.toFixed(2));
     parsedList[player].totalFlashTime = totalFlashTime;

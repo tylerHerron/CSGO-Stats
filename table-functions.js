@@ -73,13 +73,13 @@ function createReportTable(header, player, id) {
     }
 
     //Insert Manual Rows
-    addManual('Total spent', '', currencyFormat(parsedList[id].totalSpent), table);
+    addManual('Total spent', currencyFormat(parsedList[id].totalSpent),'', table);
     addManual(`Kills`, kills,'', table);
     addManual(`Assists`, assists,'', table);
     addManual(`Deaths`, deaths,'', table);
     addManual('Utility purchased', parsedList[id].utilityPurchased,'', table);
     addManual('Utility thrown', parsedList[id].utilityThrew,'', table);
-    addManual('Utility ratio','', parsedList[id].utilityRatio, table);
+    addManual('Utility ratio', parsedList[id].utilityRatio,'', table);
     addManual('Team Flashes', parsedList[id].teamFlashes,'', table);
     addManual('Enemy Flashes', parsedList[id].enemyFlashes,'', table);
     
@@ -93,7 +93,6 @@ function createReportTable(header, player, id) {
             for(var target in player["killed"]){
                 player["killed"][target].forEach(event => {
                     let gun = event.gun;
-                    console.log(gun);
                     if(items[gun].type == element){
                         typeKills++;
                     }
@@ -114,16 +113,15 @@ function createReportTable(header, player, id) {
                         totalTime += element.blindedTime;
                     });
                     addCell(`${trigger} ${target}`, row);
-                    addCell(player[trigger][target].length, row);
-                    addCell(`${totalTime.toFixed(2)} seconds`, row);
+                    let flashes = player[trigger][target].length;
+                    let time = totalTime.toFixed(2);
+                    addCell(`${flashes} for ${time} seconds.`, row);
                 }else if(trigger == "assisted"){
                     addCell(`${trigger} killing ${target}`, row);
                     addCell(player[trigger][target].length, row);
-                    addCell('', row);
                 } else {
                     addCell(`${trigger} ${target}`, row);
                     addCell(player[trigger][target].length, row);
-                    addCell('', row);
                 }
             }
         }
@@ -153,7 +151,7 @@ function addManual(input1, input2, input3, table){
     let row = table.insertRow();
     addCell(input1, row);
     addCell(input2, row);
-    addCell(input3, row);
+    //addCell(input3, row);
 }
 
 function currencyFormat(num) {
